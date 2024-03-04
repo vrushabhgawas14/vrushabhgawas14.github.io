@@ -7,15 +7,24 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="bg-gray-900 text-white">
-    <nav class="flex justify-center px-10 py-5 text-3xl text-primary sm:justify-end">
-        <ul class="flex gap-x-8 cursor-pointer sm:gap-x-4 sm:text-lg sm:pt-4 sm:hidden">
-            <li>About</li>
-            <li>Projects</li>
-            <li>Technologies</li>
-            <li>Contact</li>
+    <nav class="flex justify-end px-1 py-5 text-3xl text-primary sm:justify-between">
+        <ul class="flex">
+            <ul class="flex gap-x-8 cursor-pointer sm:gap-x-4 sm:text-lg sm:pt-4 sm:hidden"> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Technologies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul class="flex px-3 mx-8 gap-x-5 items-center sm:ml-2">
+                <li><img src="./assets/svg/github.svg" alt=""></li>
+                <li><img src="./assets/svg/twitter.svg" alt=""></li>
+                <li>|</li>
+                <li><img src="./assets/svg/dark.svg" alt=""></li>
+            </ul>
         </ul>
-        <div class="hidden sm:block">
-            <img src="./assets/bars.svg" alt="Bars" width="30px">
+        <div class="hidden sm:block mr-4">
+            <img src="./assets/svg/bars.svg" alt="Bars" width="30px">
         </div>
     </nav>
     <main class="min-w-full min-h-[90vh] bg-slate-800 flex items-center justify-around sm:flex-col">
@@ -28,9 +37,9 @@
                 <img src="./assets/image-compress.jpg" alt="My Image" class="rounded-full">
             </div>
     </main>
-    <section class="sect">I am About</section>
-    <section class="sect">I am Projects</section>
-    <section class="sect">I am Tech Stack</section>
-    <section class="sect">I am Contact</section>
+    <section class="sect" id="about">I am About</section>
+    <section class="sect" id="projects">I am Projects</section>
+    <section class="sect" id="skills">I am Tech Stack</section>
+    <section class="sect" id="contact">I am Contact</section>
 </body>
 </html>
