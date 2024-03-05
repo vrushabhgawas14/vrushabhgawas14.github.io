@@ -13,3 +13,14 @@ nav ul li{
 .sect{
     @apply text-white w-full bg-gray-600 h-96 mb-4;
 }
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: rgb(153, 157, 172);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(13, 20, 56);
+}

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./src/output.css">
+    <script defer src="./assets/script.js"></script>
 </head>
 <body class="bg-gray-900 text-white">
     <nav class="flex justify-end px-1 py-5 text-3xl text-primary sm:justify-between">
@@ -17,14 +18,14 @@
             </ul>
 
             <ul class="flex px-3 mx-8 gap-x-5 items-center sm:ml-2">
-                <li><img src="./assets/svg/github.svg" alt=""></li>
-                <li><img src="./assets/svg/twitter.svg" alt=""></li>
+                <li><img src="./assets/images/svg/github.svg" alt=""></li>
+                <li><img src="./assets/images/svg/twitter.svg" alt=""></li>
                 <li>|</li>
-                <li><img src="./assets/svg/dark.svg" alt=""></li>
+                <li><img src="./assets/images/svg/dark.svg" alt=""></li>
             </ul>
         </ul>
         <div class="hidden sm:block mr-4">
-            <img src="./assets/svg/bars.svg" alt="Bars" width="30px">
+            <img src="./assets/images/svg/bars.svg" alt="Bars" width="30px">
         </div>
     </nav>
     <main class="min-w-full min-h-[90vh] bg-slate-800 flex items-center justify-around sm:flex-col">
@@ -34,7 +35,7 @@
                 <div>Self-learned developer and DevOps Enthusiast.</div>
             </div>
             <div class="w-80">
-                <img src="./assets/image-compress.jpg" alt="My Image" class="rounded-full">
+                <img draggable="false" src="./assets/images/image-compress.jpg" alt="My Image" class="rounded-full">
             </div>
     </main>
     <section class="sect" id="about">I am About</section>
