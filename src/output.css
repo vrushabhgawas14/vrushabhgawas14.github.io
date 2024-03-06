@@ -639,6 +639,10 @@ video {
   fill: none;
 }
 
+.fill-white {
+  fill: #fff;
+}
+
 .stroke-black {
   stroke: #000;
 }
@@ -695,6 +699,10 @@ video {
 
 .duration-150 {
   transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 nav ul li:hover {
@@ -760,6 +768,10 @@ html::-webkit-scrollbar-thumb{
 :is(.dark .dark\:bg-gray-700) {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:fill-black) {
+  fill: #000;
 }
 
 :is(.dark .dark\:stroke-black) {
