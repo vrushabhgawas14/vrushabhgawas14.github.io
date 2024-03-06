@@ -561,12 +561,28 @@ video {
   display: none;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .min-h-\[90vh\] {
   min-height: 90vh;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-80 {
   width: 20rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .min-w-full {
@@ -605,22 +621,38 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.scroll-smooth {
-  scroll-behavior: smooth;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
-.bg-gray-900 {
+.bg-gray-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-slate-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.fill-none {
+  fill: none;
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
+.stroke-white {
+  stroke: #fff;
+}
+
+.stroke-2 {
+  stroke-width: 2;
+}
+
+.stroke-1 {
+  stroke-width: 1;
 }
 
 .px-1 {
@@ -651,6 +683,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
 }
 
 nav ul li:hover {
@@ -687,6 +731,61 @@ html::-webkit-scrollbar-track{
 
 html::-webkit-scrollbar-thumb{
   background-color: rgb(13, 20, 56);
+}
+
+.hover\:fill-black:hover {
+  fill: #000;
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
+}
+
+.hover\:stroke-black:hover {
+  stroke: #000;
+}
+
+.hover\:stroke-white:hover {
+  stroke: #fff;
+}
+
+:is(.dark .dark\:block) {
+  display: block;
+}
+
+:is(.dark .dark\:hidden) {
+  display: none;
+}
+
+:is(.dark .dark\:bg-gray-700) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:stroke-black) {
+  stroke: #000;
+}
+
+:is(.dark .dark\:text-black) {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:duration-300) {
+  transition-duration: 300ms;
+}
+
+:is(.dark .dark\:hover\:fill-white:hover) {
+  fill: #fff;
+}
+
+:is(.dark .dark\:hover\:stroke-white:hover) {
+  stroke: #fff;
 }
 
 @media (max-width: 640px) {
