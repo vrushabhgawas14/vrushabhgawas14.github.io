@@ -5,8 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#cccccc',
-        hover: '#eeeeee',
+        primary: {
+          "light": '#eeeeee',
+          "black": '#000000',
+        },
+        hover:{
+          "light": '#c8c8c8',
+          "black": '#2c2c2c',
+        }
       },
       screens: {
         sm: { max: '640px' },

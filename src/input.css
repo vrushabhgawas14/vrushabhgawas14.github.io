@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-nav ul li{
-    @apply hover:text-hover
+nav ul .hover-effect li{
+    @apply  hover:text-hover-black dark:hover:text-hover-light;
 }
 
 .makeCenter{
@@ -11,7 +11,7 @@ nav ul li{
 }
 
 .sect{
-    @apply text-white w-full bg-gray-600 h-96 mb-4;
+    @apply w-full bg-gray-600 h-96 mb-4;
 }
 
 html::-webkit-scrollbar{

@@ -553,6 +553,10 @@ video {
   margin-right: 1rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -563,10 +567,6 @@ video {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .min-h-\[90vh\] {
@@ -581,8 +581,24 @@ video {
   width: 20rem;
 }
 
-.w-8 {
-  width: 2rem;
+.w-72 {
+  width: 18rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .min-w-full {
@@ -591,6 +607,14 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -608,11 +632,6 @@ video {
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
-}
-
-.gap-x-8 {
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -635,12 +654,12 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
-.fill-none {
-  fill: none;
+.fill-black {
+  fill: #000;
 }
 
-.fill-white {
-  fill: #fff;
+.fill-none {
+  fill: none;
 }
 
 .stroke-black {
@@ -653,10 +672,6 @@ video {
 
 .stroke-2 {
   stroke-width: 2;
-}
-
-.stroke-1 {
-  stroke-width: 1;
 }
 
 .px-1 {
@@ -674,40 +689,50 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-primary {
+.text-black {
   --tw-text-opacity: 1;
-  color: rgb(204 204 204 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-primary-black {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .duration-100 {
   transition-duration: 100ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
 .duration-150 {
   transition-duration: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
+nav ul .hover-effect li:hover {
+  --tw-text-opacity: 1;
+  color: rgb(44 44 44 / var(--tw-text-opacity));
 }
 
-nav ul li:hover {
+:is(.dark nav ul .hover-effect li:hover) {
   --tw-text-opacity: 1;
-  color: rgb(238 238 238 / var(--tw-text-opacity));
+  color: rgb(200 200 200 / var(--tw-text-opacity));
 }
 
 .makeCenter {
@@ -725,8 +750,6 @@ nav ul li:hover {
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 html::-webkit-scrollbar{
@@ -770,26 +793,26 @@ html::-webkit-scrollbar-thumb{
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:fill-black) {
-  fill: #000;
+:is(.dark .dark\:fill-white) {
+  fill: #fff;
 }
 
 :is(.dark .dark\:stroke-black) {
   stroke: #000;
 }
 
-:is(.dark .dark\:text-black) {
+:is(.dark .dark\:stroke-white) {
+  stroke: #fff;
+}
+
+:is(.dark .dark\:text-primary-light) {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(238 238 238 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:duration-300) {
-  transition-duration: 300ms;
 }
 
 :is(.dark .dark\:hover\:fill-white:hover) {
@@ -801,6 +824,10 @@ html::-webkit-scrollbar-thumb{
 }
 
 @media (max-width: 640px) {
+  .sm\:visible {
+    visibility: visible;
+  }
+
   .sm\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -812,6 +839,10 @@ html::-webkit-scrollbar-thumb{
 
   .sm\:block {
     display: block;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
   }
 
   .sm\:hidden {
