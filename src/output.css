@@ -711,6 +711,13 @@ video {
   transition-duration: 150ms;
 }
 
+body{
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 nav ul .hover-effect li:hover {
   --tw-text-opacity: 1;
   color: rgb(44 44 44 / var(--tw-text-opacity));
@@ -830,7 +837,7 @@ html::-webkit-scrollbar-thumb{
   stroke: #fff;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .sm\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -845,8 +852,8 @@ html::-webkit-scrollbar-thumb{
     margin-left: 0.5rem;
   }
 
-  .sm\:mt-16 {
-    margin-top: 4rem;
+  .sm\:mt-14 {
+    margin-top: 3.5rem;
   }
 
   .sm\:block {
@@ -885,6 +892,11 @@ html::-webkit-scrollbar-thumb{
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:text-lg {

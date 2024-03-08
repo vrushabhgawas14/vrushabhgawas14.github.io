@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 nav ul .hover-effect li{
     @apply  hover:text-hover-black dark:hover:text-hover-light;
 }

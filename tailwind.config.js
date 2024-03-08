@@ -22,9 +22,9 @@ module.exports = {
         }
       },
       screens: {
-        sm: { max: '640px' },
-        md: { max: '768px' },
-        lg: '769px',
+        sm: { max: '900px' },
+        md: { max: '1024px' },
+        lg: '1025px',
       }
     },
   },
