@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Vrushabh Gawas</title>
     <link rel="stylesheet" href="./src/output.css">
-    <script defer src="./assets/script.js"></script>
-    <script defer src="./assets/theme.js"></script>
+    <script defer src="./src/script.js"></script>
+    <script defer src="./src/theme.js"></script>
 </head>
-<body class="bg-gray-500 dark:bg-gray-700 text-primary-black dark:text-primary-light">
-    <nav class="flex justify-end px-1 py-5 text-2xl sm:justify-between">
+<body class="bg-gray-700 dark:bg-gray-800 text-primary-black dark:text-primary-light">
+    <nav class="flex justify-end px-1 py-5 text-2xl bg-secondary-light dark:bg-secondary-dark sm:justify-between">
         <ul class="flex">
             <ul class="hover-effect flex gap-x-5 cursor-pointer sm:gap-x-4 sm:text-lg sm:pt-4 sm:hidden"> 
                 <li><a href="#">Home</a></li>
@@ -62,21 +62,22 @@
                 </li>
             </ul>
         </ul>
-        <div class="hidden sm:block mr-4">
-            <img src="./assets/Images/svg/bars.svg" alt="Bars" width="30px">
+        <!-- Bar in Mobile View -->
+        <div class="hidden sm:block mr-4 w-6 h-6 cursor-pointer">
+            <svg viewBox="0 0 448 512" class="fill-black dark:fill-white">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </svg>
         </div>
     </nav>
-    <main class="min-w-full min-h-[100vh] bg-slate-600 dark:bg-slate-800 flex items-center justify-around sm:flex-col sm:justify-normal">
+    <main class="min-w-full min-h-[100vh] bg-secondary-light dark:bg-secondary-dark flex items-center justify-around sm:flex-col sm:justify-normal">
             <div class="w-64 hidden sm:block sm:mt-16">
                 <img draggable="false" src="./assets/Images/image-compress.jpg" alt="My Image" class="rounded-full">
             </div>
-            <div class="text-3xl space-y-4 sm:text-2xl sm:mx-10 sm:my-24 flex flex-col items-center">
-                <div>Hello!</div>
-                <div>I am Vrushabh Gawas</div>
-                <div>
-                    <div>Self-learned developer and</div>
-                    <div class="text-center">DevOps Enthusiast.</div>
-                </div>
+            <div class="text-3xl space-y-2 sm:text-2xl sm:mx-10 sm:my-16 flex flex-col items-start sm:items-center">
+                <div>Hello! 👋</div>
+                <div>My Name is</div>
+                <div class="text-4xl py-2 font-semibold">Vrushabh Gawas</div>
+                <div class="text-center">Self-learned developer and DevOps Enthusiast.</div>
             </div>
             <div class="w-64 sm:hidden">
                 <img draggable="false" src="./assets/Images/image-compress.jpg" alt="My Image" class="rounded-full">
