@@ -902,6 +902,10 @@ html::-webkit-scrollbar-thumb{
     justify-content: normal;
   }
 
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
   .sm\:justify-between {
     justify-content: space-between;
   }
