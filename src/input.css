@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    overflow-x: hidden;
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -21,6 +20,10 @@ nav ul .hover-effect li{
     @apply w-full bg-secondary-light dark:bg-secondary-dark h-96 my-4 flex items-center justify-center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html::-webkit-scrollbar{
     width: 0.8rem;
 }
@@ -32,4 +35,13 @@ html::-webkit-scrollbar{
 html::-webkit-scrollbar-thumb{
     background-color: rgb(120, 118, 143);
     border-radius: 10px;
+}
+
+.toggle-dropDown{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    @apply bg-secondary-light-dropdown dark:bg-secondary-dark-dropdown;
 }

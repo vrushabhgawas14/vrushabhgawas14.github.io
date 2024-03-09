@@ -18,7 +18,9 @@ module.exports = {
         // For Background
         secondary: {
           light:"#d6daed",
+          "light-dropdown":"#d6daed7a",
           dark:"#090012",
+          "dark-dropdown":"#12000085",
         }
       },
       screens: {
