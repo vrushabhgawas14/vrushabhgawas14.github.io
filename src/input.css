@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+body{
+    transition: linear 0.5s;
+}
+
 nav ul .hover-effect li{
     @apply  hover:text-hover-black dark:hover:text-hover-light;
 }
@@ -103,8 +107,13 @@ html::-webkit-scrollbar-thumb{
 }
 
 .silding-text :nth-child(2){
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right,#b022ec,#3c68df,#4375fd,#3c72df, #385af3); 
+    background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+
+.dark .silding-text :nth-child(2){
+    background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text;
 }

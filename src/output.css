@@ -707,6 +707,17 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.grayscale{
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-100{
   transition-duration: 100ms;
 }
@@ -715,10 +726,18 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-300{
+  transition-duration: 300ms;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body{
+  transition: linear 0.5s;
 }
 
 nav ul .hover-effect li:hover{
@@ -855,10 +874,25 @@ html::-webkit-scrollbar-thumb{
 }
 
 .silding-text :nth-child(2){
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right,#b022ec,#3c68df,#4375fd,#3c72df, #385af3);
+  background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.dark .silding-text :nth-child(2){
+  background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.hover\:z-10:hover{
+  z-index: 10;
+}
+
+.hover\:scale-110:hover{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:fill-black:hover{
@@ -875,6 +909,11 @@ html::-webkit-scrollbar-thumb{
 
 .hover\:stroke-white:hover{
   stroke: #fff;
+}
+
+.hover\:grayscale-0:hover{
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 :is(.dark .dark\:block){
@@ -987,9 +1026,8 @@ html::-webkit-scrollbar-thumb{
     line-height: 2rem;
   }
 
-  .sm\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .sm\:text-\[28px\]{
+    font-size: 28px;
   }
 
   .sm\:text-lg{
