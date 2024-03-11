@@ -107,13 +107,15 @@ html::-webkit-scrollbar-thumb{
 }
 
 .silding-text :nth-child(2){
-    background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text;
+    /* background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a);  */
+    /* -webkit-text-fill-color: transparent;  */
+    /* -webkit-background-clip: text; */
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#681c39] via-[#bc1938] via-[#bf154f] via-[#df3c53] to-[#ad0a0a];
 }
 
 .dark .silding-text :nth-child(2){
-    background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text;
+    /* background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3);  */
+    /* -webkit-text-fill-color: transparent;  */
+    /* -webkit-background-clip: text; */
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b022ec] via-[#6d4ef8] via-[#4375fd] via-[#3c72df] to-[#385af3]
 }

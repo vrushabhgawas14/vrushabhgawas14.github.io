@@ -874,15 +874,43 @@ html::-webkit-scrollbar-thumb{
 }
 
 .silding-text :nth-child(2){
-  background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a);
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a);  */
+  /* -webkit-text-fill-color: transparent;  */
+  /* -webkit-background-clip: text; */
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #681c39 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(104 28 57 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(188 25 56 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #bc1938 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(191 21 79 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #bf154f var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(223 60 83 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #df3c53 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-to: #ad0a0a var(--tw-gradient-to-position);
   -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
 }
 
 .dark .silding-text :nth-child(2){
-  background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3);
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3);  */
+  /* -webkit-text-fill-color: transparent;  */
+  /* -webkit-background-clip: text; */
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #b022ec var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(176 34 236 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(109 78 248 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #6d4ef8 var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(67 117 253 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #4375fd var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(60 114 223 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #3c72df var(--tw-gradient-via-position), var(--tw-gradient-to);
+  --tw-gradient-to: #385af3 var(--tw-gradient-to-position);
   -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent
 }
 
 .hover\:z-10:hover{
