@@ -1,28 +1,33 @@
-import { musicPlayer } from "../assets";
+interface myProps {
+  img: string;
+  name?: String;
+  bio?: String;
+  stack?: String;
+  webLink?: string;
+  codeLink?: string;
+}
 
-export const Template = () => {
+export const Template: React.FC<myProps> = (props) => {
+  const { img, name, bio, stack, webLink, codeLink } = props;
   return (
     <>
-      <div className="w-80 border border-gray-600 p-2 rounded-lg">
+      <div className="w-80 border border-gray-600 p-2 m-2 rounded-lg">
         <div>
-          <img src={musicPlayer} alt="" />
+          <img src={img} alt="" className="w-68" />
         </div>
-        <p className="text-justify p-4">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-          tenetur laboriosam expedita quisquam. Maxime fuga quo sunt tenetur
-          esse sed quae enim! Totam, quae quam pariatur nostrum repudiandae
-          nihil earum.
-        </p>
-        <p></p>
-        <div>
-          <p>Teck Stack: </p>
-          <p></p>
+        <p className="text-center">{name}</p>
+        <p className="text-justify p-4">{bio}</p>
+        <div className="p-1">
+          <p className="font-semibold">Tech Stack: </p>
+          <p className="p-2">{stack}</p>
         </div>
-        <div>
-          <a href="https://www.google.com" target="_blank">
+        <div className="flex justify-between p-1 italic underline">
+          <a href={webLink} target="_blank">
             live link
           </a>
-          <a href="/">view code</a>
+          <a href={codeLink} target="_blank">
+            view code
+          </a>
         </div>
       </div>
     </>
