@@ -1,3 +1,0 @@
-*.css linguist-vendored=true
-# Auto-detect text files, ensure they use LF.
-* text=auto
