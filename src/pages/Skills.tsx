@@ -1,10 +1,23 @@
+import Heading from "../components/Heading";
+import Line from "../components/Line";
+
 export const Skills = () => {
   return (
-    <div
-      id="skills"
-      className="flex justify-center items-center text-3xl bg-secondary-light dark:bg-secondary-dark min-w-full min-h-[100vh]"
-    >
-      <div>I am Skills</div>
-    </div>
+    <>
+      <main id="skills" className="py-10">
+        <Heading text="Skills" />
+        <section className="mx-64 sm:mx-6 pt-10">
+          <div>
+            <Heading text="Tech Stack" isSubHeading={true} />
+            <p>Technologies I had Worked On</p>
+            <div>Images</div>
+          </div>
+          <div>
+            <Heading text="Tools" isSubHeading={true} />
+          </div>
+        </section>
+      </main>
+      <Line />
+    </>
   );
 };

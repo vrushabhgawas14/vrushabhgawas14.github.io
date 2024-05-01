@@ -17,17 +17,21 @@ export const DataBox: React.FC<myProps> = (props) => {
         <span className="text-xl font-semibold">{position}</span>
         <span
           className={`px-2 my-1 rounded-xl text-slate-800 dark:text-zinc-900 
-                      ${type ? "bg-zinc-400 dark:bg-slate-500" : null}`}
+          ${type ? "bg-zinc-400 dark:bg-slate-400" : null}`}
         >
           {type}
         </span>
       </div>
       <div className="flex justify-between">
-        <span className="italic">{company}</span>
+        <span className="font-semibold">{company}</span>
         <span className="text-sm">{duration}</span>
       </div>
-      <div className="italic text-sm">{location}</div>
-      <div className={`${grade ? null : "hidden"}`}>Grade : {grade}</div>
+      <div className={`flex ${grade ? "justify-between" : "justify-end"}`}>
+        <div className={`${grade ? null : "hidden"} italic`}>
+          Grade : {grade}
+        </div>
+        <div className="italic text-sm">{location}</div>
+      </div>
     </div>
   );
 };

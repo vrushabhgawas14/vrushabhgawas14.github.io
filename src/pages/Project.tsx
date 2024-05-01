@@ -46,7 +46,7 @@ export const Project = () => {
           <img
             src={back}
             alt="Back"
-            className="ml-10 w-12 h-18 cursor-pointer sm:hidden"
+            className="ml-10 w-12 h-18 cursor-pointer opacity-80 hover:opacity-100 sm:hidden"
             onClick={goLeft}
           />
           <div
@@ -70,7 +70,7 @@ export const Project = () => {
           <img
             src={next}
             alt=""
-            className="mr-10 w-12 h-18 cursor-pointer sm:hidden"
+            className="mr-10 w-12 h-18 cursor-pointer opacity-80 hover:opacity-100 sm:hidden"
             onClick={goRight}
           />
         </div>
