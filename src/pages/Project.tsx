@@ -1,8 +1,9 @@
 import Heading from "../components/Heading";
 import Line from "../components/Line";
 import Template from "../components/ProjectTemplate";
-import { Details } from "../constants/ProjectDetails";
-import { back, next } from "../assets";
+import { Details, arrowSVG } from "../constants/ProjectDetails";
+const back = arrowSVG.back;
+const next = arrowSVG.next;
 
 export const Project = () => {
   function handleScroll(e: any) {
@@ -43,12 +44,7 @@ export const Project = () => {
       <main id="projects" className="py-10 pb-20">
         <Heading text="Projects" />
         <div className="flex items-center">
-          <img
-            src={back}
-            alt="Back"
-            className="ml-10 w-12 h-18 cursor-pointer opacity-80 hover:opacity-100 sm:hidden"
-            onClick={goLeft}
-          />
+          <div onClick={goLeft}>{back}</div>
           <div
             onWheel={handleScroll}
             onMouseEnter={disableScroll}
@@ -67,12 +63,7 @@ export const Project = () => {
               />
             ))}
           </div>
-          <img
-            src={next}
-            alt=""
-            className="mr-10 w-12 h-18 cursor-pointer opacity-80 hover:opacity-100 sm:hidden"
-            onClick={goRight}
-          />
+          <div onClick={goRight}>{next}</div>
         </div>
       </main>
       <Line />

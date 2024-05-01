@@ -51,7 +51,7 @@ html::-webkit-scrollbar {
     animation: slideLeft 0.7s;
 }
 .textPopup :nth-child(4){
-    animation: slideLeft 0.9s;
+    animation: slideLeft 0.8s;
 }
 .textPopup :nth-child(5){
     animation: slideLeft 1s;

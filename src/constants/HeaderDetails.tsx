@@ -12,7 +12,7 @@ export const NavElement = [
     url: "#projects",
   },
   {
-    title: "Teck Stack",
+    title: "Skills",
     url: "#skills",
   },
   {
