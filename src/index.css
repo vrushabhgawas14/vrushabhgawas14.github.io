@@ -104,15 +104,15 @@ html::-webkit-scrollbar {
     /* @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b022ec] via-[#6d4ef8] via-[#4375fd] via-[#3c72df] to-[#385af3] */
 }
 
-.scrolling-section::-webkit-scrollbar {
-    @apply h-4;
+#slider::-webkit-scrollbar {
+    @apply h-3 lg:hidden;
   }
   
-.scrolling-section::-webkit-scrollbar-thumb {
-   @apply bg-gray-400;
+#slider::-webkit-scrollbar-thumb {
+   @apply bg-gray-400 cursor-pointer;
 }
   
-.scrolling-section::-webkit-scrollbar-track {
+#slider::-webkit-scrollbar-track {
     @apply hidden;
   }
   

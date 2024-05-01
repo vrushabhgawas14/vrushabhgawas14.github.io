@@ -2,21 +2,60 @@ import Heading from "../components/Heading";
 import Line from "../components/Line";
 import Template from "../components/ProjectTemplate";
 import { Details } from "../constants/ProjectDetails";
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import { back, next } from "../assets";
+
 export const Project = () => {
-  let slide: any = document.getElementById("slider");
-  slide?.addEventListener("wheel", (e: any) => {
-    e.preventDefault();
-    slide.style.scrollBehavior = "auto";
+  function handleScroll(e: any) {
+    let slide: any = document.getElementById("slider");
+    slide.style.scrollBehavior = "smooth";
     slide.scrollLeft += e.deltaY;
-  });
+  }
+
+  const enableScroll = (e: any) => {
+    document.removeEventListener("wheel", preventDefault, false);
+  };
+
+  const disableScroll = (e: any) => {
+    document.addEventListener("wheel", preventDefault, {
+      passive: false,
+    });
+  };
+
+  const preventDefault = (e: any) => {
+    if (e.preventDefault) {
+      e.preventDefault();
+    }
+    e.returnValue = false;
+  };
+
+  function goRight() {
+    let slide: any = document.getElementById("slider");
+    slide.scrollLeft += 250;
+  }
+
+  function goLeft() {
+    let slide: any = document.getElementById("slider");
+    slide.scrollLeft -= 250;
+  }
 
   return (
     <>
-      <main id="projects" className="py-10 w-[60%] sm:w-[90%] m-auto">
+      <main id="projects" className="py-10 pb-20">
         <Heading text="Projects" />
-        <div id="slider" className="overflow-scroll sm:mx-6 scrolling-section">
-          <div className="flex py-5">
+        <div className="flex items-center">
+          <img
+            src={back}
+            alt="Back"
+            className="ml-10 w-12 h-18 cursor-pointer sm:hidden"
+            onClick={goLeft}
+          />
+          <div
+            onWheel={handleScroll}
+            onMouseEnter={disableScroll}
+            onMouseLeave={enableScroll}
+            id="slider"
+            className="overflow-x-scroll scroll-smooth mx-40 flex py-4 gap-x-3 border-black border-2 dark:border-gray-400 border-x-0 sm:mx-6"
+          >
             {Details.map((item) => (
               <Template
                 img={item.img}
@@ -28,6 +67,12 @@ export const Project = () => {
               />
             ))}
           </div>
+          <img
+            src={next}
+            alt=""
+            className="mr-10 w-12 h-18 cursor-pointer sm:hidden"
+            onClick={goRight}
+          />
         </div>
       </main>
       <Line />
