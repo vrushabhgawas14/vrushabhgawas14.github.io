@@ -13,7 +13,8 @@ import bash from "./TechStack/Bash.svg";
 import markdown from "./TechStack/markdown.svg";
 
 //Tools
-import npm from "./TechStack/#";
+import npm from "./skills/npm.svg";
+import docker from "./skills/docker.svg";
 
 export const profile = myImage;
 
@@ -31,4 +32,7 @@ export const techStackImages = {
   bash: bash,
 };
 
-export default tools = [{}];
+export const tools = {
+  npm: npm,
+  docker: docker,
+};

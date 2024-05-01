@@ -1,4 +1,4 @@
-import { techStackImages } from "../assets";
+import { techStackImages, tools } from "../assets";
 
 export const techStackDetails = [
   {
@@ -23,4 +23,13 @@ export const techStackDetails = [
   },
 ];
 
-export const toolsDetails = [{}];
+export const toolsDetails = [
+  {
+    title: "npm",
+    img: tools.npm,
+  },
+  {
+    title: "Docker",
+    img: tools.docker,
+  },
+];
