@@ -9,7 +9,7 @@ export const workDetails = [
   // {
   //   position: "Telecaller",
   //   type: "full-time",
-  //   company: "Sigma outsourcing",
+  //   company: "Sigma Outsourcing",
   //   duration: "April/2024 - Dec/2024",
   //   location: "Mumbai",
   // },
@@ -25,11 +25,19 @@ export const educationDetails = [
     location: "Mumbai",
   },
   {
-    position: "High School",
+    position: "HSC",
     type: "full-time",
-    company: "Bhuta High School",
+    company: "Tolani College",
     duration: "2020 - 2022",
     grade: "83%",
+    location: "Mumbai",
+  },
+  {
+    position: "SSC",
+    type: "full-time",
+    company: "N.D Bhuta High School",
+    duration: "2010 - 2020",
+    grade: "88.8%",
     location: "Mumbai",
   },
 ];

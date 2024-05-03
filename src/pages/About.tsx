@@ -9,11 +9,25 @@ export const About = () => {
       <main id="about" className="py-10">
         <Heading text="About me" />
         <section className="mx-64 sm:mx-6 pt-10">
-          <p className="text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
-            eaque, alias reiciendis maxime eum laborum nam ipsa rerum vel,
-            explicabo numquam excepturi tempora est placeat repellat
-            exercitationem esse laudantium voluptatibus.
+          <p className="text-start text-lg">
+            <p>
+              Vrushabh Gawas is a second year BSC IT student and passionate Open
+              Source Contributor and DevOps Enthusiast, his career objective is
+              to work for a detail oriented organization that believes in
+              setting standards through continuous innovations in the field of
+              technological excellence and to prove himself as an valuable
+              asset.
+            </p>
+            <p className="py-4">
+              Self taught developer, Proficient in Java, Data Structures and
+              Algorithms and Web Development.
+            </p>
+            <p className="py-2">
+              Currently, Vrushabh is seeking opportunities in roles such as
+              Software Engineer, Developer Advocate or DevOps Engineer, where he
+              can continue to contribute his expertise and passion for
+              technology.
+            </p>
           </p>
         </section>
         <section className="mx-64 sm:mx-6 pt-10">
