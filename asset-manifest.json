@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.71628ead.css",
-    "main.js": "/static/js/main.7974443a.js",
-    "static/media/music-player.png": "/static/media/music-player.ba2ae1879c72e89e9cbb.png",
+    "main.css": "/static/css/main.5e5ef593.css",
+    "main.js": "/static/js/main.67faa213.js",
+    "static/media/ageCalculator.png": "/static/media/ageCalculator.73e4a9bc9cdd5e5e727b.png",
+    "static/media/to-do.png": "/static/media/to-do.1111e0692f16e2fd9505.png",
+    "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
+    "static/media/music-player.png": "/static/media/music-player.9a6ddee0f2fcb581f7ef.png",
     "static/media/profile.png": "/static/media/profile.cad428c06d887d977817.png",
+    "static/media/qr-generator.png": "/static/media/qr-generator.15edcbeb84e12529b656.png",
+    "static/media/ticTacToe.jpg": "/static/media/ticTacToe.719165368d70c83e2123.jpg",
     "static/media/mysql.svg": "/static/media/mysql.43de11b606ebbf08dc0ff0a2c482c686.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.454eb4e556fb84e77b09c13f75516e55.svg",
     "static/media/docker.svg": "/static/media/docker.5acac4b4a9268616752dd9c3d466a35e.svg",
@@ -21,11 +26,11 @@
     "index.html": "/index.html",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.71628ead.css.map": "/static/css/main.71628ead.css.map",
-    "main.7974443a.js.map": "/static/js/main.7974443a.js.map"
+    "main.5e5ef593.css.map": "/static/css/main.5e5ef593.css.map",
+    "main.67faa213.js.map": "/static/js/main.67faa213.js.map"
   },
   "entrypoints": [
-    "static/css/main.71628ead.css",
-    "static/js/main.7974443a.js"
+    "static/css/main.5e5ef593.css",
+    "static/js/main.67faa213.js"
   ]
 }
