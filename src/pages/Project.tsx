@@ -43,7 +43,7 @@ export const Project = () => {
     <>
       <main id="projects" className="py-10 pb-20">
         <Heading text="Projects" />
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
           <div onClick={goLeft}>{back}</div>
           <div
             onWheel={handleScroll}

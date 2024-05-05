@@ -1,5 +1,6 @@
 import ProfileImage from "../components/ProfileImage";
 import Line from "../components/Line";
+import { Arrow } from "../components/Arrow";
 
 export const Home = () => {
   return (
@@ -25,6 +26,7 @@ export const Home = () => {
         </div>
       </div>
       <Line />
+      <Arrow />
     </>
   );
 };

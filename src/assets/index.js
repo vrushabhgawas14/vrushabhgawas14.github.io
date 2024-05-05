@@ -3,6 +3,11 @@ import myImage from "./profile.png";
 
 // Project Images
 import musicPlayer from "./projects/music-player.png";
+import ticTacToe from "./projects/ticTacToe.jpg";
+import toDo from "./projects/to-do.png";
+import qrGenerator from "./projects/qr-generator.png";
+import portfolio from "./projects/portfolio-white.png";
+import ageCalculator from "./projects/ageCalculator.png";
 
 // Tech Stack Images
 import javascript from "./techStack/javascript.svg";
@@ -28,6 +33,11 @@ export const profile = myImage;
 
 export const projectImages = {
   musicPlayer: musicPlayer,
+  ticTacToe: ticTacToe,
+  toDo: toDo,
+  qrGenerator: qrGenerator,
+  ageCalculator: ageCalculator,
+  portfolio: portfolio,
 };
 
 export const techStackImages = {
