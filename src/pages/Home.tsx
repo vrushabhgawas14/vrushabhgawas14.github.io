@@ -1,6 +1,5 @@
 import ProfileImage from "../components/ProfileImage";
 import Line from "../components/Line";
-import { Arrow } from "../components/Arrow";
 
 export const Home = () => {
   return (
@@ -17,16 +16,13 @@ export const Home = () => {
           <div className="text-4xl sm:text-[28px] py-2 font-semibold">
             I'm Vrushabh Gawas
           </div>
-          <div className="text-center">
-            Student, Coder and DevOps Enthusiast.
-          </div>
+          <div className="text-center">Student, Coder and Tech Enthusiast.</div>
         </div>
         <div className="w-72 sm:hidden">
           <ProfileImage />
         </div>
       </div>
       <Line />
-      <Arrow />
     </>
   );
 };

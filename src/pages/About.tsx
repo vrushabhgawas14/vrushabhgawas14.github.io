@@ -12,9 +12,9 @@ export const About = () => {
           <p className="text-start text-lg">
             <p>
               Vrushabh Gawas is a second year BSC IT student and passionate Open
-              Source Contributor and DevOps Enthusiast, his career objective is
-              to work for a detail oriented organization that believes in
-              setting standards through continuous innovations in the field of
+              Source Contributor and Tech Enthusiast, his career objective is to
+              work for a detail oriented organization that believes in setting
+              standards through continuous innovations in the field of
               technological excellence and to prove himself as an valuable
               asset.
             </p>
