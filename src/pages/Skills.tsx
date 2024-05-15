@@ -17,7 +17,7 @@ export const Skills = () => {
   return (
     <>
       <main id="skills" className="py-10">
-        <Heading text="Skills" className="s_text" />
+        <Heading text="Skills" animationClass="s_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <div>
             <Heading text="Tech Stack" isSubHeading={true} />

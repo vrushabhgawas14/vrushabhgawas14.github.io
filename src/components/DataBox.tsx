@@ -7,12 +7,16 @@ interface myProps {
   duration: String;
   grade?: String;
   location: String;
+  animationClass?: String;
 }
 
 export const DataBox: React.FC<myProps> = (props) => {
-  const { position, type, company, duration, grade, location } = props;
+  const { position, type, company, duration, grade, location, animationClass } =
+    props;
   return (
-    <div className="flex flex-col gap-y-1 rounded-lg border border-zinc-500 p-2 mb-4">
+    <div
+      className={`flex flex-col gap-y-1 rounded-lg border border-zinc-500 p-2 mb-4 ${animationClass}`}
+    >
       <div className="flex justify-between">
         <span className="text-xl font-semibold">{position}</span>
         <span

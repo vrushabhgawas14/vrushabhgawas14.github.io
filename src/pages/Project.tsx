@@ -53,7 +53,7 @@ export const Project = () => {
   return (
     <>
       <main id="projects" className="py-10 pb-20">
-        <Heading text="Projects" className="p_text" />
+        <Heading text="Projects" animationClass="p_text" />
         <div className="flex items-center justify-center">
           <div onClick={goLeft}>{back}</div>
           <div

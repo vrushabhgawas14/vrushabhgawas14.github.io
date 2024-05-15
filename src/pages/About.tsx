@@ -7,7 +7,21 @@ import { animateWithGsap } from "../utils/animation";
 
 export const About = () => {
   useGSAP(() => {
-    animateWithGsap(".g_text", {
+    animateWithGsap(".a_text", {
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 1,
+      stagger: 0.5,
+    });
+    animateWithGsap(".a_ex_text", {
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 1,
+      stagger: 0.5,
+    });
+    animateWithGsap(".a_ed_text", {
       y: 0,
       opacity: 1,
       ease: "power2.inOut",
@@ -18,10 +32,10 @@ export const About = () => {
   return (
     <>
       <main id="about" className="py-10">
-        <Heading text="About me" className="g_text" />
+        <Heading text="About me" animationClass="a_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <p className="text-start text-lg">
-            <p className="g_text">
+            <p className="a_text">
               Vrushabh Gawas is a second year BSC IT student and passionate Open
               Source Contributor and Tech Enthusiast, his career objective is to
               work for a detail oriented organization that believes in setting
@@ -29,19 +43,23 @@ export const About = () => {
               technological excellence and to prove himself as an valuable
               asset.
             </p>
-            <p className="py-4 g_text">
+            <p className="py-4 a_text">
               Self taught developer, Proficient in Java, Data Structures and
               Algorithms and Web Development.
             </p>
-            <p className="py-2 g_text">
+            <p className="py-2 a_text">
               Currently, Vrushabh is seeking opportunities in roles such as
               Software Engineer, Web Developer or DevOps Engineer, where he can
               continue to contribute his expertise and passion for technology.
             </p>
           </p>
         </section>
-        <section className="mx-64 sm:mx-6 pt-10 g_text">
-          <Heading text="Work Experience : " isSubHeading={true} />
+        <section className="mx-64 sm:mx-6 pt-10">
+          <Heading
+            text="Work Experience : "
+            isSubHeading={true}
+            animationClass="a_ex_text"
+          />
           {workDetails.map((item) => (
             <DataBox
               position={item.position}
@@ -49,11 +67,16 @@ export const About = () => {
               company={item.company}
               duration={item.duration}
               location={item.location}
+              animationClass="a_ex_text"
             />
           ))}
         </section>
-        <section className="mx-64 sm:mx-6 pt-10 g_text">
-          <Heading text="Education : " isSubHeading={true} />
+        <section className="mx-64 sm:mx-6 pt-10">
+          <Heading
+            text="Education : "
+            isSubHeading={true}
+            animationClass="a_ed_text"
+          />
           {educationDetails.map((item) => (
             <DataBox
               position={item.position}
@@ -62,6 +85,7 @@ export const About = () => {
               duration={item.duration}
               grade={item.grade}
               location={item.location}
+              animationClass="a_ed_text"
             />
           ))}
         </section>

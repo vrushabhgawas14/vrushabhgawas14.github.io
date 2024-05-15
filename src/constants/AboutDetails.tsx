@@ -21,7 +21,7 @@ export const educationDetails = [
     type: "full-time",
     company: "Sathaye College",
     duration: "2022 - 2025",
-    grade: "8.5 CGPA",
+    grade: "9.2 CGPA",
     location: "Mumbai",
   },
   {
@@ -29,7 +29,7 @@ export const educationDetails = [
     type: "full-time",
     company: "Tolani College",
     duration: "2020 - 2022",
-    grade: "83%",
+    grade: "82%",
     location: "Mumbai",
   },
   {
@@ -37,7 +37,7 @@ export const educationDetails = [
     type: "full-time",
     company: "N.D Bhuta High School",
     duration: "2010 - 2020",
-    grade: "88.8%",
+    grade: "89%",
     location: "Mumbai",
   },
 ];
