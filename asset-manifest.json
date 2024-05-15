@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de19d1d8.css",
-    "main.js": "/static/js/main.ea31f0bb.js",
+    "main.css": "/static/css/main.db2124e5.css",
+    "main.js": "/static/js/main.60060f00.js",
     "static/media/ageCalculator.png": "/static/media/ageCalculator.73e4a9bc9cdd5e5e727b.png",
     "static/media/to-do.png": "/static/media/to-do.1111e0692f16e2fd9505.png",
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
@@ -26,11 +26,11 @@
     "index.html": "/index.html",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.de19d1d8.css.map": "/static/css/main.de19d1d8.css.map",
-    "main.ea31f0bb.js.map": "/static/js/main.ea31f0bb.js.map"
+    "main.db2124e5.css.map": "/static/css/main.db2124e5.css.map",
+    "main.60060f00.js.map": "/static/js/main.60060f00.js.map"
   },
   "entrypoints": [
-    "static/css/main.de19d1d8.css",
-    "static/js/main.ea31f0bb.js"
+    "static/css/main.db2124e5.css",
+    "static/js/main.60060f00.js"
   ]
 }
