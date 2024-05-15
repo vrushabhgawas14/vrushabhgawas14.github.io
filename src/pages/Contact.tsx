@@ -1,8 +1,19 @@
 import React from "react";
 import Heading from "../components/Heading";
 import { socials } from "../constants/HeaderDetails";
+import { useGSAP } from "@gsap/react";
+import { animateWithGsap } from "../utils/animation";
 
 export const Contact = () => {
+  useGSAP(() => {
+    animateWithGsap(".c_text", {
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 1,
+    });
+  }, []);
+
   const [result, setResult] = React.useState("");
 
   const onSubmit = async (event: any) => {
@@ -31,7 +42,7 @@ export const Contact = () => {
   return (
     <>
       <main id="contact" className="py-10">
-        <Heading text="Contact" />
+        <Heading text="Contact" className="c_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <div>
             <form

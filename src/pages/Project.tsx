@@ -1,11 +1,22 @@
+import { useGSAP } from "@gsap/react";
 import Heading from "../components/Heading";
 import Line from "../components/Line";
 import Template from "../components/ProjectTemplate";
 import { Details, arrowSVG } from "../constants/ProjectDetails";
+import { animateWithGsap } from "../utils/animation";
 const back = arrowSVG.back;
 const next = arrowSVG.next;
 
 export const Project = () => {
+  useGSAP(() => {
+    animateWithGsap(".p_text", {
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 1,
+    });
+  }, []);
+
   function handleScroll(e: any) {
     let slide: any = document.getElementById("slider");
     slide.style.scrollBehavior = "smooth";
@@ -42,7 +53,7 @@ export const Project = () => {
   return (
     <>
       <main id="projects" className="py-10 pb-20">
-        <Heading text="Projects" />
+        <Heading text="Projects" className="p_text" />
         <div className="flex items-center justify-center">
           <div onClick={goLeft}>{back}</div>
           <div

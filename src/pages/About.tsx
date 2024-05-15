@@ -2,15 +2,26 @@ import Heading from "../components/Heading";
 import Line from "../components/Line";
 import { workDetails, educationDetails } from "../constants/AboutDetails";
 import DataBox from "../components/DataBox";
+import { useGSAP } from "@gsap/react";
+import { animateWithGsap } from "../utils/animation";
 
 export const About = () => {
+  useGSAP(() => {
+    animateWithGsap(".g_text", {
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 1,
+      stagger: 0.5,
+    });
+  }, []);
   return (
     <>
       <main id="about" className="py-10">
-        <Heading text="About me" />
+        <Heading text="About me" className="g_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <p className="text-start text-lg">
-            <p>
+            <p className="g_text">
               Vrushabh Gawas is a second year BSC IT student and passionate Open
               Source Contributor and Tech Enthusiast, his career objective is to
               work for a detail oriented organization that believes in setting
@@ -18,18 +29,18 @@ export const About = () => {
               technological excellence and to prove himself as an valuable
               asset.
             </p>
-            <p className="py-4">
+            <p className="py-4 g_text">
               Self taught developer, Proficient in Java, Data Structures and
               Algorithms and Web Development.
             </p>
-            <p className="py-2">
+            <p className="py-2 g_text">
               Currently, Vrushabh is seeking opportunities in roles such as
               Software Engineer, Web Developer or DevOps Engineer, where he can
               continue to contribute his expertise and passion for technology.
             </p>
           </p>
         </section>
-        <section className="mx-64 sm:mx-6 pt-10">
+        <section className="mx-64 sm:mx-6 pt-10 g_text">
           <Heading text="Work Experience : " isSubHeading={true} />
           {workDetails.map((item) => (
             <DataBox
@@ -41,7 +52,7 @@ export const About = () => {
             />
           ))}
         </section>
-        <section className="mx-64 sm:mx-6 pt-10">
+        <section className="mx-64 sm:mx-6 pt-10 g_text">
           <Heading text="Education : " isSubHeading={true} />
           {educationDetails.map((item) => (
             <DataBox

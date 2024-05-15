@@ -1,12 +1,23 @@
+import { useGSAP } from "@gsap/react";
 import Heading from "../components/Heading";
 import Line from "../components/Line";
 import { techStackDetails, toolsDetails } from "../constants/SkillsDetails";
+import { animateWithGsap } from "../utils/animation";
 
 export const Skills = () => {
+  useGSAP(() => {
+    animateWithGsap(".s_text", {
+      y: 0,
+      opacity: 1,
+      ease: "power2.inOut",
+      duration: 1,
+    });
+  }, []);
+
   return (
     <>
       <main id="skills" className="py-10">
-        <Heading text="Skills" />
+        <Heading text="Skills" className="s_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <div>
             <Heading text="Tech Stack" isSubHeading={true} />
