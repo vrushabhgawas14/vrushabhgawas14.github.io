@@ -49,7 +49,7 @@ export const About = () => {
             </p>
             <p className="py-2 a_text">
               Currently, Vrushabh is seeking opportunities in roles such as
-              Software Engineer, Web Developer or DevOps Engineer, where he can
+              Software Engineer, Web Developer or Java Developer, where he can
               continue to contribute his expertise and passion for technology.
             </p>
           </p>
