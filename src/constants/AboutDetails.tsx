@@ -1,18 +1,18 @@
 export const workDetails = [
   {
+    position: "TeleCaller",
+    type: "full-time",
+    company: "Sigma Outsourcing",
+    duration: "Apr/2024 - May/2024",
+    location: "Mumbai",
+  },
+  {
     position: "Sales Executive",
     type: "part-time",
     company: "Vijay Sales",
     duration: "June/2023 - Aug/2023",
     location: "Mumbai",
   },
-  // {
-  //   position: "Telecaller",
-  //   type: "full-time",
-  //   company: "Sigma Outsourcing",
-  //   duration: "April/2024 - Dec/2024",
-  //   location: "Mumbai",
-  // },
 ];
 
 export const educationDetails = [
