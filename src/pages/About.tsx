@@ -62,12 +62,13 @@ export const About = () => {
           />
           {workDetails.map((item) => (
             <DataBox
-              position={item.position}
-              type={item.type}
-              company={item.company}
-              duration={item.duration}
-              location={item.location}
+              // position={item.position}
+              // type={item.type}
+              // company={item.company}
+              // duration={item.duration}
+              // location={item.location}
               animationClass="a_ex_text"
+              {...item}
             />
           ))}
         </section>
@@ -79,13 +80,13 @@ export const About = () => {
           />
           {educationDetails.map((item) => (
             <DataBox
-              position={item.position}
-              // type={item.type}
-              company={item.company}
-              duration={item.duration}
-              grade={item.grade}
-              location={item.location}
+              // position={item.position}
+              // company={item.company}
+              // duration={item.duration}
+              // grade={item.grade}
+              // location={item.location}
               animationClass="a_ed_text"
+              {...item}
             />
           ))}
         </section>

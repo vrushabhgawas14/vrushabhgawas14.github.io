@@ -18,7 +18,6 @@ export const workDetails = [
 export const educationDetails = [
   {
     position: "BSC-IT",
-    type: "full-time",
     company: "Sathaye College",
     duration: "2022 - 2025",
     grade: "9.2 CGPA",
@@ -26,7 +25,6 @@ export const educationDetails = [
   },
   {
     position: "HSC",
-    type: "full-time",
     company: "Tolani College",
     duration: "2020 - 2022",
     grade: "82%",
@@ -34,7 +32,6 @@ export const educationDetails = [
   },
   {
     position: "SSC",
-    type: "full-time",
     company: "N.D Bhuta High School",
     duration: "2010 - 2020",
     grade: "89%",
