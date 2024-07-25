@@ -10,13 +10,13 @@ import portfolio from "./projects/portfolio-white.png";
 import ageCalculator from "./projects/ageCalculator.png";
 
 // Tech Stack Images
-import javascript from "../assets/techStack/javascript.svg";
-import java from "../assets/techStack/java.svg";
-import react from "../assets/techStack/react.svg";
-import python from "../assets/techStack/python.svg";
-import bash from "../assets/techStack/bash.svg";
-import markdown from "../assets/techStack/markdown.svg";
-import typescript from "../assets/techStack/typescript.svg";
+import javascript from "../../src/assets/techstack/javascript.svg";
+import java from "../assets/techstack/java.svg";
+import react from "../assets/techstack/react.svg";
+import python from "../assets/techstack/python.svg";
+import bash from "../assets/techstack/bash.svg";
+import markdown from "../assets/techstack/markdown.svg";
+import typescript from "../assets/techstack/typescript.svg";
 
 //Tools
 import npm from "../assets/tools/npm.svg";
