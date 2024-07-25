@@ -46,7 +46,7 @@ export const Details = [
     name: "Portfolio Website",
     bio: "Portfolio Website to showcase skills, projects and to provide personal information.",
     stack: ["React", "TypeScript", "API", "JavaScript", "TailwindCss"],
-    webLink: "https://vrushabhgawas.vercel.app/",
+    webLink: "https://vrushabhgawas14.github.io/",
     codeLink: "https://github.com/vrushabhgawas14/",
   },
 ];
