@@ -1,4 +1,4 @@
-import { techStackImages, tools } from "../assets";
+import { techStackImages, tools } from "../assets/index";
 
 export const techStackDetails = [
   {
