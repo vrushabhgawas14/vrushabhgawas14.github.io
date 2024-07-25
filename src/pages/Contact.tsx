@@ -41,7 +41,7 @@ export const Contact = () => {
 
   return (
     <>
-      <main id="contact" className="py-10">
+      <main id="contact" className="pt-10">
         <Heading text="Contact" animationClass="c_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <div>
@@ -93,6 +93,10 @@ export const Contact = () => {
             </div>
           </div>
         </section>
+        <div className="text-center pt-8 pb-1 text-sm text-gray-700 dark:text-gray-500">
+          <p>© 2024 Developed by Vrushabh Gawas.</p>
+          <p>All rights reserved.</p>
+        </div>
       </main>
     </>
   );
