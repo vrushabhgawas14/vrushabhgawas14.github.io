@@ -3,14 +3,14 @@ export const workDetails = [
     position: "TeleCaller",
     type: "full-time",
     company: "Sigma Outsourcing",
-    duration: "Apr/2024 - May/2024",
+    duration: "Apr 2024 - June 2024",
     location: "Mumbai",
   },
   {
     position: "Sales Executive",
     type: "part-time",
     company: "Vijay Sales",
-    duration: "June/2023 - Aug/2023",
+    duration: "June 2023 - Aug 2023",
     location: "Mumbai",
   },
 ];
