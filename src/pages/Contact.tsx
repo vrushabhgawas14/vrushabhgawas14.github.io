@@ -3,6 +3,7 @@ import Heading from "../components/Heading";
 import { socials } from "../constants/HeaderDetails";
 import { useGSAP } from "@gsap/react";
 import { animateWithGsap } from "../utils/animation";
+import Line from "../components/Line";
 
 export const Contact = () => {
   useGSAP(() => {
@@ -42,7 +43,7 @@ export const Contact = () => {
   return (
     <>
       <main id="contact" className="pt-10">
-        <Heading text="Contact" animationClass="c_text" />
+        <Heading text="Contact Me" animationClass="c_text" />
         <section className="mx-64 sm:mx-6 pt-10">
           <div>
             <form
@@ -77,7 +78,7 @@ export const Contact = () => {
             </form>
             <p className={`text-center p-2 text-green-600`}>{result}</p>
           </div>
-          <div className="flex flex-col items-center pt-4">
+          <div className="flex flex-col items-center py-4">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gawasvrushabh@gmail.com"
               target="blank"
@@ -93,7 +94,8 @@ export const Contact = () => {
             </div>
           </div>
         </section>
-        <div className="text-center pt-8 pb-1 text-sm text-gray-700 dark:text-gray-500">
+        <Line isThin={true} />
+        <div className="text-center pt-4 pb-1 text-sm text-gray-700 dark:text-gray-500">
           <p>© 2024 Developed by Vrushabh Gawas.</p>
           <p>All rights reserved.</p>
         </div>
