@@ -82,12 +82,18 @@ export const Contact = () => {
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gawasvrushabh@gmail.com"
               target="blank"
+              rel="noreferrer"
             >
               gawasvrushabh@gmail.com
             </a>
             <div className="flex pt-2 sm:pl-3">
               {socials.map((item) => (
-                <a href={item.url} target="_blank" className="px-2">
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-2"
+                >
                   {item.svg}
                 </a>
               ))}

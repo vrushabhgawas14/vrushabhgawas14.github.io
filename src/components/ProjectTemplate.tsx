@@ -15,9 +15,10 @@ export const Template: React.FC<myProps> = (props) => {
     <>
       <div className="w-80 min-w-80 sm:min-w-72 border border-gray-600 p-2 m-2 rounded-lg">
         <div>
-          <a href={webLink} target="_blank">
+          <a href={webLink} target="_blank" rel="noreferrer">
             <img
               src={img}
+              alt="projectImage"
               className="w-68 border-2 border-black hover:opacity-80"
             />
           </a>
@@ -35,10 +36,20 @@ export const Template: React.FC<myProps> = (props) => {
           </div>
         </div>
         <div className="flex justify-between px-2 font-semibold italic underline dark:text-zinc-300">
-          <a href={webLink} target="_blank" className="hover:opacity-70">
+          <a
+            href={webLink}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:opacity-70"
+          >
             live link
           </a>
-          <a href={codeLink} target="_blank" className="hover:opacity-70">
+          <a
+            href={codeLink}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:opacity-70"
+          >
             view code
           </a>
         </div>
