@@ -64,7 +64,12 @@ export default function Header() {
 
         <div className="flex sm:pl-3">
           {socials.map((item) => (
-            <a href={item.url} target="_blank" className="px-2">
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+              className="px-2"
+            >
               {item.svg}
             </a>
           ))}

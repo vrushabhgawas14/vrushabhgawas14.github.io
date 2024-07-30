@@ -24,12 +24,7 @@ export const Skills = () => {
             <p>Technologies I had Worked On</p>
             <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
               {techStackDetails.map((item) => (
-                <img
-                  src={item.img}
-                  alt="Image"
-                  title={item.title}
-                  className="w-24 h-24"
-                />
+                <img src={item.img} title={item.title} className="w-24 h-24" />
               ))}
             </div>
           </div>
@@ -37,12 +32,7 @@ export const Skills = () => {
             <Heading text="Tools" isSubHeading={true} />
             <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
               {toolsDetails.map((item) => (
-                <img
-                  src={item.img}
-                  alt="Image"
-                  title={item.title}
-                  className="w-24 h-24"
-                />
+                <img src={item.img} title={item.title} className="w-24 h-24" />
               ))}
             </div>
           </div>

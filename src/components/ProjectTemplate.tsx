@@ -18,7 +18,6 @@ export const Template: React.FC<myProps> = (props) => {
           <a href={webLink} target="_blank">
             <img
               src={img}
-              alt=""
               className="w-68 border-2 border-black hover:opacity-80"
             />
           </a>

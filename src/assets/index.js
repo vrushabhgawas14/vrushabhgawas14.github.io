@@ -47,7 +47,6 @@ export const techStackImages = {
   python: python,
   bash: bash,
   markdown: markdown,
-  bash: bash,
   typescript: typescript,
 };
 
