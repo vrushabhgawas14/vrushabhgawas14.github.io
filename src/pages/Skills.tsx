@@ -51,7 +51,7 @@ export const Skills = () => {
                   src={item.img}
                   alt="techStackImages"
                   title={item.title}
-                  className="w-24 h-24"
+                  className="w-20 h-20 sm:w-16 sm:h-16"
                 />
               ))}
             </div>
@@ -68,7 +68,7 @@ export const Skills = () => {
                   src={item.img}
                   alt="techStackImages"
                   title={item.title}
-                  className="w-24 h-24"
+                  className="w-20 h-20 sm:w-16 sm:h-16"
                 />
               ))}
             </div>
@@ -85,7 +85,7 @@ export const Skills = () => {
                   src={item.img}
                   alt="techStackImages"
                   title={item.title}
-                  className="w-32 h-24"
+                  className="w-32 h-20 sm:w-24 sm:h-16"
                 />
               ))}
             </div>
@@ -102,7 +102,7 @@ export const Skills = () => {
                   src={item.img}
                   alt="techStackImages"
                   title={item.title}
-                  className="w-28 h-24"
+                  className="w-28 h-20 sm:w-24 sm:h-16"
                 />
               ))}
             </div>
@@ -119,7 +119,7 @@ export const Skills = () => {
                   src={item.img}
                   alt="socialImages"
                   title={item.title}
-                  className="w-24 h-24"
+                  className="w-20 h-20 sm:w-16 sm:h-16"
                 />
               ))}
             </div>
