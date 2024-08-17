@@ -9,24 +9,36 @@ import qrGenerator from "./projects/qr-generator.png";
 import portfolio from "./projects/portfolio-white.png";
 import ageCalculator from "./projects/ageCalculator.png";
 
-// Tech Stack Images
-import javascript from "./techstack/javascript.svg";
-import java from "./techstack/java.svg";
-import react from "./techstack/react.svg";
-import python from "./techstack/python.svg";
-import bash from "./techstack/bash.svg";
-import markdown from "./techstack/markdown.svg";
-import typescript from "./techstack/typescript.svg";
+// Language Images
+import javascript from "./langImages/javascript.svg";
+import java from "./langImages/java.svg";
+import python from "./langImages/python.svg";
+import bash from "./langImages/bash.svg";
+import markdown from "./langImages/markdown.svg";
+import typescript from "./langImages/typescript.svg";
+import html from "./langImages/html.svg";
+import css from "./langImages/css.svg";
 
-//Tools
+// Framework / Libraries Images
+import react from "./frameLibImages/react.svg";
+import next from "./frameLibImages/next.svg";
+import tailwindcss from "./frameLibImages/tailwindcss.svg";
+import bootstrap from "./frameLibImages/bootstrap.svg";
+
+// Database Images
+import mysql from "./databaseImages/mysql.svg";
+import firebase from "./databaseImages/firebase.svg";
+import mongodb from "./databaseImages/mongodb.svg";
+
+// Backend Images
+import nodejs from "./backendImages/nodejs.svg";
+import expressjs from "./backendImages/express.svg";
+
+// Tools
 import npm from "./tools/npm.svg";
 import docker from "./tools/docker.svg";
-import bootstrap from "./tools/bootstrap.svg";
 import git from "./tools/git.svg";
 import github from "./tools/github.svg";
-import mysql from "./tools/mysql.svg";
-import nodejs from "./tools/nodejs.svg";
-import tailwindcss from "./tools/tailwindcss.svg";
 import vscode from "./tools/vscode.svg";
 
 export const profile = myImage;
@@ -40,24 +52,40 @@ export const projectImages = {
   portfolio: portfolio,
 };
 
-export const techStackImages = {
+export const languageImages = {
   javascript: javascript,
-  react: react,
   java: java,
   python: python,
-  bash: bash,
   markdown: markdown,
   typescript: typescript,
+  bash: bash,
+  html: html,
+  css: css,
 };
 
-export const tools = {
+export const frameworkLibrariesImages = {
+  react: react,
+  next: next,
+  bootstrap: bootstrap,
+  tailwindcss: tailwindcss,
+};
+
+export const databaseImages = {
+  mysql: mysql,
+  mongodb: mongodb,
+  firebase: firebase,
+};
+
+export const backendImages = {
+  nodejs: nodejs,
+  next: next,
+  expressjs: expressjs,
+};
+
+export const toolsImages = {
   npm: npm,
   docker: docker,
-  bootstrap: bootstrap,
   git: git,
   github: github,
-  mysql: mysql,
-  nodejs: nodejs,
-  tailwindcss: tailwindcss,
   vscode: vscode,
 };

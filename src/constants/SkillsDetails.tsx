@@ -1,67 +1,132 @@
-import { techStackImages, tools } from "../assets";
+import {
+  languageImages,
+  frameworkLibrariesImages,
+  databaseImages,
+  backendImages,
+  toolsImages,
+} from "../assets";
 
-export const techStackDetails = [
+export const languages = [
   {
+    motionDuration: 5,
     title: "JavaScript",
-    img: techStackImages.javascript,
+    img: languageImages.javascript,
   },
   {
-    title: "React",
-    img: techStackImages.react,
-  },
-  {
+    motionDuration: 3,
     title: "TypeScript",
-    img: techStackImages.typescript,
+    img: languageImages.typescript,
   },
   {
+    motionDuration: 4,
     title: "Java",
-    img: techStackImages.java,
+    img: languageImages.java,
   },
   {
+    motionDuration: 5,
     title: "Python",
-    img: techStackImages.python,
+    img: languageImages.python,
   },
   {
+    motionDuration: 6,
+    title: "HTML",
+    img: languageImages.html,
+  },
+  {
+    motionDuration: 4,
+    title: "CSS",
+    img: languageImages.css,
+  },
+  {
+    motionDuration: 4,
     title: "MarkDown",
-    img: techStackImages.markdown,
+    img: languageImages.markdown,
   },
 ];
 
-export const toolsDetails = [
+export const frameworkLibrary = [
   {
-    title: "Git",
-    img: tools.git,
+    motionDuration: 5,
+    title: "React",
+    img: frameworkLibrariesImages.react,
   },
   {
-    title: "Docker",
-    img: tools.docker,
+    motionDuration: 3,
+    title: "Next",
+    img: frameworkLibrariesImages.next,
   },
   {
-    title: "Github",
-    img: tools.github,
-  },
-  {
-    title: "Mysql",
-    img: tools.mysql,
-  },
-  {
-    title: "Npm",
-    img: tools.npm,
-  },
-  {
-    title: "Nodejs",
-    img: tools.nodejs,
-  },
-  {
+    motionDuration: 4,
     title: "Tailwindcss",
-    img: tools.tailwindcss,
+    img: frameworkLibrariesImages.tailwindcss,
   },
   {
-    title: "VsCode",
-    img: tools.vscode,
-  },
-  {
+    motionDuration: 2,
     title: "BootStrap",
-    img: tools.bootstrap,
+    img: frameworkLibrariesImages.bootstrap,
+  },
+];
+
+export const database = [
+  {
+    motionDuration: 5,
+    title: "MySQL",
+    img: databaseImages.mysql,
+  },
+  {
+    motionDuration: 4,
+    title: "Firebase",
+    img: databaseImages.firebase,
+  },
+  {
+    motionDuration: 3,
+    title: "MongoDB",
+    img: databaseImages.mongodb,
+  },
+];
+
+export const backend = [
+  {
+    motionDuration: 4,
+    title: "Nodejs",
+    img: backendImages.nodejs,
+  },
+  {
+    motionDuration: 3,
+    title: "Nextjs",
+    img: backendImages.next,
+  },
+  {
+    motionDuration: 5,
+    title: "Expressjs",
+    img: backendImages.expressjs,
+  },
+];
+
+export const tools = [
+  {
+    motionDuration: 2,
+    title: "Git",
+    img: toolsImages.git,
+  },
+  {
+    motionDuration: 4,
+    title: "Docker",
+    img: toolsImages.docker,
+  },
+  {
+    motionDuration: 3,
+    title: "Github",
+    img: toolsImages.github,
+  },
+  {
+    motionDuration: 5,
+    title: "Npm",
+    img: toolsImages.npm,
+  },
+  {
+    motionDuration: 4,
+    title: "VsCode",
+    img: toolsImages.vscode,
   },
 ];
