@@ -1,7 +1,7 @@
 export const Arrow = () => {
   return (
     <a
-      href="/"
+      href="#"
       className="fixed bottom-8 right-8 bg-gray-500 dark:bg-slate-600 p-2 rounded-3xl hover:bg-slate-600 dark:hover:bg-slate-800"
     >
       <svg

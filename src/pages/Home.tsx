@@ -14,7 +14,7 @@ export const Home = () => {
         <div className="flex flex-col items-start sm:items-center text-3xl sm:text-2xl sm:mx-10 sm:my-16 sliding-text">
           <div>Hello! 👋</div>
           <div className="text-4xl sm:text-[28px] py-2 font-semibold">
-            I'm Vrushabh Gawas
+            I'm Vrushsabh Gawas
           </div>
           <div className="text-center">Student, Coder and Tech Enthusiast.</div>
         </div>
