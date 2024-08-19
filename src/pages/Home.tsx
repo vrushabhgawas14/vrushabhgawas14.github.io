@@ -11,10 +11,10 @@ export const Home = () => {
         <div className="w-64 hidden sm:block sm:mt-14">
           <ProfileImage />
         </div>
-        <div className="flex flex-col items-start sm:items-center text-3xl sm:text-2xl sm:mx-10 sm:my-16 sliding-text">
+        <div className="flex flex-col items-start sm:items-center text-3xl sm:text-2xl sm:mx-8 sm:my-16 sliding-text">
           <div>Hello! 👋</div>
-          <div className="text-4xl sm:text-[28px] py-2 font-semibold">
-            I'm Vrushsabh Gawas
+          <div className="text-4xl sm:text-[30px] py-2 font-semibold">
+            I'm Vrushabh Gawas
           </div>
           <div className="text-center">Student, Coder and Tech Enthusiast.</div>
         </div>
