@@ -20,6 +20,7 @@ export default function Header() {
       setTheme("dark");
       localStorage.setItem("savedTheme", "dark");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Changes local storage and adds dark or light class.
