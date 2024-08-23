@@ -43,8 +43,13 @@ export const Contact = () => {
   return (
     <>
       <main id="contact" className="pt-10">
-        <Heading text="Contact Me" animationClass="c_text" />
-        <section className="mx-64 sm:mx-6 pt-10">
+        <Heading text="Get In Touch" animationClass="c_text" />
+        <section className="mx-64 sm:mx-6 pt-10 flex flex-col">
+          <div className="text-center mx-32 sm:mx-4 pb-10 lg:text-lg opacity-75">
+            Interested in hiring me to build exceptional websites or requesting
+            my resume? Simply fill out the contact form, and I’ll promptly get
+            back to you via email.
+          </div>
           <div>
             <form
               onSubmit={onSubmit}
