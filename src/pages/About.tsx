@@ -36,12 +36,11 @@ export const About = () => {
         <section className="mx-64 sm:mx-6 pt-10">
           <p className="text-start text-lg">
             <p className="a_text">
-              Vrushabh Gawas is a final year BSC IT student and passionate Open
-              Source Contributor and Tech Enthusiast, his career objective is to
-              work for a detail oriented organization that believes in setting
-              standards through continuous innovations in the field of
-              technological excellence and to prove himself as an valuable
-              asset.
+              Vrushabh Gawas is a final year BSC IT student, passionate Web
+              Developer and Tech Enthusiast, his career objective is to work for
+              a detail oriented organization that believes in setting standards
+              through continuous innovations in the field of technological
+              excellence and to prove himself as an valuable asset.
             </p>
             <p className="py-4 a_text">
               Self taught developer, Proficient in Java, Data Structures and
