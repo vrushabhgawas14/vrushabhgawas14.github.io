@@ -20,7 +20,7 @@ export const educationDetails = [
     position: "BSC-IT",
     company: "Sathaye College",
     duration: "2022 - 2025",
-    grade: "9.2 CGPA",
+    grade: "8.5 CGPA",
     location: "Mumbai",
   },
   {
