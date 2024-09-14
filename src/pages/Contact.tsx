@@ -106,9 +106,8 @@ export const Contact = () => {
           </div>
         </section>
         <Line isThin={true} />
-        <div className="text-center pt-4 pb-1 text-sm text-gray-700 dark:text-gray-500">
+        <div className="text-center pt-4 pb-2 text-sm text-gray-700 dark:text-gray-500">
           <p>© 2024 Developed by Vrushabh Gawas.</p>
-          <p>All rights reserved.</p>
         </div>
       </main>
     </>
