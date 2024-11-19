@@ -25,6 +25,9 @@ jobs:
       - name: Install Dependencies
         run: npm i
 
+      - name: Generate Sitemap
+        run: node generate-sitemap.js
+
       - name: Deploy with gh-pages
         run: |
           git config --global user.name $user_name
