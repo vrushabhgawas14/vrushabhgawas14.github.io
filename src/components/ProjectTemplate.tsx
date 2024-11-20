@@ -15,7 +15,7 @@ export const Template: React.FC<myProps> = (props) => {
     <>
       <div className="w-80 min-w-80 sm:min-w-72 border border-gray-600 p-2 m-2 rounded-lg">
         <div>
-          <a href={webLink} target="_blank" rel="noreferrer">
+          <a href={webLink} target="_blank" rel="noopener noreferrer">
             <img
               src={img}
               alt="projectImage"
@@ -39,7 +39,7 @@ export const Template: React.FC<myProps> = (props) => {
           <a
             href={webLink}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="hover:opacity-70"
           >
             live link
@@ -47,7 +47,7 @@ export const Template: React.FC<myProps> = (props) => {
           <a
             href={codeLink}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="hover:opacity-70"
           >
             view code

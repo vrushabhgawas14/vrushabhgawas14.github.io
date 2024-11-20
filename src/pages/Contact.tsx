@@ -86,8 +86,8 @@ export const Contact = () => {
           <div className="flex flex-col items-center py-4">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gawasvrushabh@gmail.com"
-              target="blank"
-              rel="noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               gawasvrushabh@gmail.com
             </a>
@@ -96,7 +96,7 @@ export const Contact = () => {
                 <a
                   href={item.url}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="px-2"
                 >
                   {item.svg}

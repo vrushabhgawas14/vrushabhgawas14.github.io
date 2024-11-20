@@ -68,7 +68,7 @@ export default function Header() {
             <a
               href={item.url}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="px-2"
             >
               {item.svg}
