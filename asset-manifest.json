@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f185028.css",
-    "main.js": "/static/js/main.3cb2508b.js",
+    "main.js": "/static/js/main.acc97416.js",
     "static/media/ageCalculator.png": "/static/media/ageCalculator.73e4a9bc9cdd5e5e727b.png",
     "static/media/to-do.png": "/static/media/to-do.1111e0692f16e2fd9505.png",
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
@@ -19,8 +19,8 @@
     "static/media/python.svg": "/static/media/python.439dd3d27dbba23fa07acb94633c7a7d.svg",
     "static/media/vscode.svg": "/static/media/vscode.eef59fa8e478cdd587a69aa69a6ea193.svg",
     "static/media/bash.svg": "/static/media/bash.2ff4286cd733b0c193f3e32961fa9f36.svg",
-    "static/media/react.svg": "/static/media/react.6c1d44b8c59f0f72ff199a54ceed774c.svg",
     "index.html": "/index.html",
+    "static/media/react.svg": "/static/media/react.6c1d44b8c59f0f72ff199a54ceed774c.svg",
     "static/media/java.svg": "/static/media/java.3c5854fce4aa30ad19d569c45d5ce874.svg",
     "static/media/github.svg": "/static/media/github.b1d40b8a97dbe6f2bdcde1cb82616179.svg",
     "static/media/bootstrap.svg": "/static/media/bootstrap.5d590f6c245312fdf16a7e8ab1d6ba44.svg",
@@ -33,10 +33,10 @@
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
     "main.1f185028.css.map": "/static/css/main.1f185028.css.map",
-    "main.3cb2508b.js.map": "/static/js/main.3cb2508b.js.map"
+    "main.acc97416.js.map": "/static/js/main.acc97416.js.map"
   },
   "entrypoints": [
     "static/css/main.1f185028.css",
-    "static/js/main.3cb2508b.js"
+    "static/js/main.acc97416.js"
   ]
 }
