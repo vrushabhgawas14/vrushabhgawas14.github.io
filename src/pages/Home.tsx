@@ -13,12 +13,12 @@ export const Home = () => {
         </div>
         <div className="flex flex-col items-start sm:items-center text-3xl sm:text-2xl sm:mx-8 sm:my-16 sliding-text">
           <div>Hello! 👋</div>
-          <div className="text-4xl sm:text-[30px] py-2 font-semibold">
+          <div className="text-5xl sm:text-[30px] py-2 font-semibold">
             I'm Vrushabh Gawas
           </div>
-          <div className="text-center">Student, Coder and Tech Enthusiast.</div>
+          <div className="text-center">Full Stack Web Developer and Coder.</div>
         </div>
-        <div className="w-72 sm:hidden">
+        <div className="w-80 sm:hidden">
           <ProfileImage />
         </div>
       </div>
