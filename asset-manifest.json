@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f185028.css",
-    "main.js": "/static/js/main.acc97416.js",
+    "main.css": "/static/css/main.48d2f2f0.css",
+    "main.js": "/static/js/main.0603ddc0.js",
     "static/media/ageCalculator.png": "/static/media/ageCalculator.73e4a9bc9cdd5e5e727b.png",
     "static/media/to-do.png": "/static/media/to-do.1111e0692f16e2fd9505.png",
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
@@ -32,11 +32,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.1f185028.css.map": "/static/css/main.1f185028.css.map",
-    "main.acc97416.js.map": "/static/js/main.acc97416.js.map"
+    "main.48d2f2f0.css.map": "/static/css/main.48d2f2f0.css.map",
+    "main.0603ddc0.js.map": "/static/js/main.0603ddc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f185028.css",
-    "static/js/main.acc97416.js"
+    "static/css/main.48d2f2f0.css",
+    "static/js/main.0603ddc0.js"
   ]
 }
