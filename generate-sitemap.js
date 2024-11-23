@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const urls = ["https://vrushabhgawas14.github.io/"];
+const urls = ["https://vrushabhgawas14.github.io"];
 
 // current timestamp in ISO 8601 format
 const now = new Date().toISOString();
