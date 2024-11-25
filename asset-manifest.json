@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.48d2f2f0.css",
-    "main.js": "/static/js/main.0603ddc0.js",
+    "main.css": "/static/css/main.a8928acb.css",
+    "main.js": "/static/js/main.6233bcaa.js",
+    "static/media/BrowserStack.jpeg": "/static/media/BrowserStack.81a2bc20dda90cbd127b.jpeg",
+    "static/media/middleware.jpg": "/static/media/middleware.419d05311085c3bca11b.jpg",
+    "static/media/CNCFThaneSep.jpeg": "/static/media/CNCFThaneSep.5969d621560fc19232d9.jpeg",
+    "static/media/CNCFThaneAug.jpeg": "/static/media/CNCFThaneAug.b5d8df11ba8a751d8c3d.jpeg",
     "static/media/ageCalculator.png": "/static/media/ageCalculator.73e4a9bc9cdd5e5e727b.png",
     "static/media/to-do.png": "/static/media/to-do.1111e0692f16e2fd9505.png",
+    "static/media/BreachForceSep.jpeg": "/static/media/BreachForceSep.f9ca77f61c6029354eda.jpeg",
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
     "static/media/music-player.png": "/static/media/music-player.9a6ddee0f2fcb581f7ef.png",
     "static/media/profile.png": "/static/media/profile.cad428c06d887d977817.png",
@@ -32,11 +37,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.48d2f2f0.css.map": "/static/css/main.48d2f2f0.css.map",
-    "main.0603ddc0.js.map": "/static/js/main.0603ddc0.js.map"
+    "main.a8928acb.css.map": "/static/css/main.a8928acb.css.map",
+    "main.6233bcaa.js.map": "/static/js/main.6233bcaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d2f2f0.css",
-    "static/js/main.0603ddc0.js"
+    "static/css/main.a8928acb.css",
+    "static/js/main.6233bcaa.js"
   ]
 }
