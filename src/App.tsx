@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import { Home, About, Project, Skills, Contact } from "./pages";
+import { Home, About, Project, Skills, Contact, Events } from "./pages";
 import { Arrow } from "./components/Arrow";
 
 export default function App() {
@@ -10,6 +10,7 @@ export default function App() {
       <About />
       <Project />
       <Skills />
+      <Events />
       <Contact />
       <Arrow />
     </>

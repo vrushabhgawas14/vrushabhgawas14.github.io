@@ -51,9 +51,12 @@ html::-webkit-scrollbar {
     animation: slideLeft 0.7s;
 }
 .textPopup :nth-child(4){
-    animation: slideLeft 0.8s;
+    animation: slideLeft 0.6s;
 }
 .textPopup :nth-child(5){
+    animation: slideLeft 0.9s;
+}
+.textPopup :nth-child(6){
     animation: slideLeft 1s;
 }
 
@@ -109,12 +112,20 @@ html::-webkit-scrollbar {
 
 #slider::-webkit-scrollbar {
     @apply h-3 lg:hidden;
-  }
+}
   
-#slider::-webkit-scrollbar-track {
+#slider::-webkit-scrollbar-track, #eventSlider::-webkit-scrollbar-track{
     @apply hidden;
-  }
-  
+}
+
+#eventSlider::-webkit-scrollbar {
+    @apply h-4;
+}
+
+#eventSlider::-webkit-scrollbar-thumb{
+	@apply cursor-pointer;
+}
+
 .btn{
     background: linear-gradient(to right,#7001a0, #092cc9); 
     @apply text-xl text-zinc-200 rounded-2xl px-4 py-2 border-2 border-zinc-900 dark:border-gray-200 hover:opacity-80
@@ -124,6 +135,6 @@ html::-webkit-scrollbar {
     @apply opacity-0 translate-y-[100px];
 }
 
-.p_text, .s_text, .c_text{
+.p_text, .s_text, .c_text, .e_text{
     @apply opacity-0 translate-y-[30px];
 }

@@ -16,6 +16,10 @@ export const NavElement = [
     url: "#skills",
   },
   {
+    title: "Events",
+    url: "#events",
+  },
+  {
     title: "Contact",
     url: "#contact",
   },

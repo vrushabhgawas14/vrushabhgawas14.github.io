@@ -41,6 +41,13 @@ import git from "./tools/git.svg";
 import github from "./tools/github.svg";
 import vscode from "./tools/vscode.svg";
 
+// Event Images
+import BreachForceSep from "./eventImages/BreachForceSep.jpeg";
+import BrowserStack from "./eventImages/BrowserStack.jpeg";
+import CNCFThaneAug from "./eventImages/CNCFThaneAug.jpeg";
+import CNCFThaneSep from "./eventImages/CNCFThaneSep.jpeg";
+import middleware from "./eventImages/middleware.jpg";
+
 export const profile = myImage;
 
 export const projectImages = {
@@ -88,4 +95,12 @@ export const toolsImages = {
   git: git,
   github: github,
   vscode: vscode,
+};
+
+export const eventImages = {
+  BreachForceSep: BreachForceSep,
+  BrowserStack: BrowserStack,
+  CNCFThaneAug: CNCFThaneAug,
+  CNCFThaneSep: CNCFThaneSep,
+  middleware: middleware,
 };
