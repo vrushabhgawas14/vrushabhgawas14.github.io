@@ -49,8 +49,16 @@ export const Events = () => {
       }
     };
 
+    if (isImageOpen) {
+      window.history.pushState(null, "", window.location.href);
+      window.addEventListener("popstate", handleClose);
+    }
+
     document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      window.removeEventListener("popstate", handleClose);
+    };
   }, [isImageOpen]);
 
   return (
