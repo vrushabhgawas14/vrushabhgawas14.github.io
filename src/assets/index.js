@@ -18,12 +18,14 @@ import markdown from "./langImages/markdown.svg";
 import typescript from "./langImages/typescript.svg";
 import html from "./langImages/html.svg";
 import css from "./langImages/css.svg";
+import golang from "./langImages/golang.svg";
 
 // Framework / Libraries Images
 import react from "./frameLibImages/react.svg";
 import next from "./frameLibImages/next.svg";
 import tailwindcss from "./frameLibImages/tailwindcss.svg";
 import bootstrap from "./frameLibImages/bootstrap.svg";
+import dotnet from "./frameLibImages/dotnet.svg";
 
 // Database Images
 import mysql from "./databaseImages/mysql.svg";
@@ -40,6 +42,8 @@ import docker from "./tools/docker.svg";
 import git from "./tools/git.svg";
 import github from "./tools/github.svg";
 import vscode from "./tools/vscode.svg";
+import ubuntu from "./tools/ubuntu.svg";
+import vercel from "./tools/vercel.svg";
 
 // Event Images
 import BreachForceSep from "./eventImages/BreachForceSep.jpeg";
@@ -68,6 +72,7 @@ export const languageImages = {
   bash: bash,
   html: html,
   css: css,
+  golang: golang,
 };
 
 export const frameworkLibrariesImages = {
@@ -75,6 +80,7 @@ export const frameworkLibrariesImages = {
   next: next,
   bootstrap: bootstrap,
   tailwindcss: tailwindcss,
+  dotnet: dotnet,
 };
 
 export const databaseImages = {
@@ -95,6 +101,8 @@ export const toolsImages = {
   git: git,
   github: github,
   vscode: vscode,
+  ubuntu: ubuntu,
+  vercel: vercel,
 };
 
 export const eventImages = {

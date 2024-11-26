@@ -1,13 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import Heading from "../components/Heading";
 import Line from "../components/Line";
-import {
-  languages,
-  frameworkLibrary,
-  database,
-  backend,
-  tools,
-} from "../constants/SkillsDetails";
+import { TechStackData } from "../constants/SkillsDetails";
 import { animateWithGsap } from "../utils/animation";
 import { motion, Variants } from "framer-motion";
 
@@ -39,91 +33,25 @@ export const Skills = () => {
       <main id="skills" className="py-10">
         <Heading text="Tech Stack" animationClass="s_text" />
         <section className="mx-64 sm:mx-6 pt-10">
-          <div>
-            <Heading text="Languages" isSubHeading={true} />
-            <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
-              {languages.map((item) => (
-                <motion.img
-                  variants={iconVariants}
-                  custom={item.motionDuration}
-                  initial="initial"
-                  animate="animate"
-                  src={item.img}
-                  alt="techStackImages"
-                  title={item.title}
-                  className="w-20 h-20 sm:w-16 sm:h-16"
-                />
-              ))}
+          {TechStackData.map((item) => (
+            <div>
+              <Heading text={item.catogory} isSubHeading={true} />
+              <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
+                {item.content.map((element) => (
+                  <motion.img
+                    variants={iconVariants}
+                    custom={element.motionDuration}
+                    initial="initial"
+                    animate="animate"
+                    src={element.img}
+                    alt="techStackImages"
+                    title={element.title}
+                    className={`${item.svgWidth} h-20 sm:h-16`}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-          <div>
-            <Heading text="Frameworks / Libraries" isSubHeading={true} />
-            <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
-              {frameworkLibrary.map((item) => (
-                <motion.img
-                  variants={iconVariants}
-                  custom={item.motionDuration}
-                  initial="initial"
-                  animate="animate"
-                  src={item.img}
-                  alt="techStackImages"
-                  title={item.title}
-                  className="w-20 h-20 sm:w-16 sm:h-16"
-                />
-              ))}
-            </div>
-          </div>
-          <div>
-            <Heading text="Database" isSubHeading={true} />
-            <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
-              {database.map((item) => (
-                <motion.img
-                  variants={iconVariants}
-                  custom={item.motionDuration}
-                  initial="initial"
-                  animate="animate"
-                  src={item.img}
-                  alt="techStackImages"
-                  title={item.title}
-                  className="w-32 h-20 sm:w-24 sm:h-16"
-                />
-              ))}
-            </div>
-          </div>
-          <div>
-            <Heading text="Backend" isSubHeading={true} />
-            <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
-              {backend.map((item) => (
-                <motion.img
-                  variants={iconVariants}
-                  custom={item.motionDuration}
-                  initial="initial"
-                  animate="animate"
-                  src={item.img}
-                  alt="techStackImages"
-                  title={item.title}
-                  className="w-28 h-20 sm:w-24 sm:h-16"
-                />
-              ))}
-            </div>
-          </div>
-          <div>
-            <Heading text="Tools" isSubHeading={true} />
-            <div className="flex flex-wrap py-4 gap-10 sm:gap-6">
-              {tools.map((item) => (
-                <motion.img
-                  variants={iconVariants}
-                  custom={item.motionDuration}
-                  initial="initial"
-                  animate="animate"
-                  src={item.img}
-                  alt="socialImages"
-                  title={item.title}
-                  className="w-20 h-20 sm:w-16 sm:h-16"
-                />
-              ))}
-            </div>
-          </div>
+          ))}
         </section>
       </main>
       <Line />
