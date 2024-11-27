@@ -56,7 +56,7 @@ export const TechStackData = [
   },
   // Frameworks & Lib
   {
-    catogory: "Frameworks & Lib",
+    catogory: "Framework & Libraries",
     svgWidth: "w-20 sm:w-16",
     content: [
       {

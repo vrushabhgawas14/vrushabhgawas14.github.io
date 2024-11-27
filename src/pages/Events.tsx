@@ -69,7 +69,7 @@ export const Events = () => {
           <div onClick={goLeft}>{back}</div>
           <div
             id="eventSlider"
-            className="overflow-x-scroll scroll-smooth mx-40 flex py-4 gap-x-3 border-black border-2 dark:border-gray-400 border-x-0 sm:mx-6"
+            className="overflow-x-scroll scroll-smooth mx-40 flex py-4 gap-x-3 border-black border-2 dark:border-gray-400 border-x-0 md:mx-10 sm:mx-6"
           >
             {EventsDetails.map((item) => (
               <EventTemplate

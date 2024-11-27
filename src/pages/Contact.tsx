@@ -44,11 +44,11 @@ export const Contact = () => {
     <>
       <main id="contact" className="pt-10">
         <Heading text="Get In Touch" animationClass="c_text" />
-        <section className="mx-64 sm:mx-6 pt-10 flex flex-col">
-          <div className="text-center mx-32 sm:mx-4 pb-10 lg:text-lg opacity-75">
+        <section className="mx-64 md:mx-28 sm:mx-6 pt-10 flex flex-col">
+          <div className="text-center mx-32 md:mx-28 sm:mx-4 pb-10 text-lg sm:text-base opacity-75">
             Interested in hiring me to build exceptional websites or requesting
-            my resume? Simply fill out the contact form, and I’ll promptly get
-            back to you via email.
+            my resume? Simply fill out the contact form, and I&apos;ll promptly
+            get back to you via email.
           </div>
           <div>
             <form
@@ -58,21 +58,21 @@ export const Contact = () => {
               <input
                 type="text"
                 name="name"
-                className="w-[40%] sm:w-[85%] px-4 py-2 rounded-3xl  focus:outline-none bg-slate-800 dark:bg-gray-200 text-zinc-200 dark:text-slate-800"
+                className="w-[40%] md:w-[50%] sm:w-[85%] px-4 py-2 rounded-3xl  focus:outline-none bg-slate-800 dark:bg-gray-200 text-zinc-200 dark:text-slate-800"
                 placeholder="Enter Name : "
                 required
               />
               <input
                 type="email"
                 name="email"
-                className="w-[40%] sm:w-[85%] px-4 py-2 rounded-3xl focus:outline-none bg-slate-800 dark:bg-gray-200 text-zinc-200 dark:text-slate-800"
+                className="w-[40%] md:w-[50%] sm:w-[85%] px-4 py-2 rounded-3xl focus:outline-none bg-slate-800 dark:bg-gray-200 text-zinc-200 dark:text-slate-800"
                 placeholder="Enter Email : "
                 required
               />
               <textarea
                 name="message"
                 rows={4}
-                className="w-[40%] sm:w-[85%] px-4 py-2 rounded-xl  focus:outline-none bg-slate-800 dark:bg-gray-200 text-zinc-200 dark:text-slate-800"
+                className="w-[40%] md:w-[50%] sm:w-[85%] px-4 py-2 rounded-xl  focus:outline-none bg-slate-800 dark:bg-gray-200 text-zinc-200 dark:text-slate-800"
                 placeholder="Enter Message : "
                 required
               ></textarea>

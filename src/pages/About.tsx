@@ -33,27 +33,34 @@ export const About = () => {
     <>
       <main id="about" className="py-10">
         <Heading text="About me" animationClass="a_text" />
-        <section className="mx-64 sm:mx-6 pt-10">
+        <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <p className="text-start text-lg">
             <p className="a_text">
-              Vrushabh Gawas is a final year BSC IT student, passionate Web
-              Developer and Tech Enthusiast, his career objective is to work for
-              a detail oriented organization that believes in setting standards
-              through continuous innovations in the field of technological
-              excellence and to prove himself as an valuable asset.
+              Vrushabh Gawas is a final-year BSc IT student, passionate Web
+              Developer and Cloud-Native Enthusiast.
+              {/* <span>
+                His career objective is to work for a detail oriented
+                organization that believes in building impactful solutions and
+                aims to push the boundaries of innovation and technology.
+              </span> */}
             </p>
             <p className="py-4 a_text">
-              Self taught developer, Proficient in Java, Data Structures and
-              Algorithms and Web Development.
+              He has strong foundation in MERN stack, along with experience in
+              frameworks like Next.js and databases like MySQL. Additionally, he
+              is proficient in version control tools such as Git and
+              containerization tools such as Docker. His involvement in
+              open-source contributions and personal projects has further honed
+              his abilities. Now, Vrushabh is exploring cloud-native
+              technologies and practicing DevOps to gain more knowledge.
             </p>
             <p className="py-2 a_text">
               Currently, Vrushabh is seeking opportunities in roles such as
-              Software Engineer, Web Developer or Java Developer, where he can
-              continue to contribute his expertise and passion for technology.
+              Software Engineer or Web Developer, where he can continue to
+              contribute his expertise and passion for technology.
             </p>
           </p>
         </section>
-        <section className="mx-64 sm:mx-6 pt-10">
+        <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <Heading
             text="Work Experience : "
             isSubHeading={true}
@@ -71,7 +78,7 @@ export const About = () => {
             />
           ))}
         </section>
-        <section className="mx-64 sm:mx-6 pt-10">
+        <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <Heading
             text="Education : "
             isSubHeading={true}
