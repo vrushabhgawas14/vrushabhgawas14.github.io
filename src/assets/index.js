@@ -7,7 +7,7 @@ import ticTacToe from "./projects/ticTacToe.jpg";
 import toDo from "./projects/to-do.png";
 import qrGenerator from "./projects/qr-generator.png";
 import portfolio from "./projects/portfolio-white.png";
-import ageCalculator from "./projects/ageCalculator.png";
+import travelAgency from "./projects/travelAgency.png";
 
 // Language Images
 import javascript from "./langImages/javascript.svg";
@@ -59,7 +59,7 @@ export const projectImages = {
   ticTacToe: ticTacToe,
   toDo: toDo,
   qrGenerator: qrGenerator,
-  ageCalculator: ageCalculator,
+  travelAgency: travelAgency,
   portfolio: portfolio,
 };
 

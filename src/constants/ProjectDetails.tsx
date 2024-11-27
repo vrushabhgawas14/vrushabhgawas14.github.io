@@ -2,12 +2,31 @@ import { projectImages } from "../assets";
 
 export const Details = [
   {
+    img: projectImages.travelAgency,
+    name: "Travel in a Blink",
+    bio: "A modern travel agency project offering seamless and fast travel experiences. (Note : This Project is still in development.)",
+    stack: ["Next.js", "React", "TS", "JS", "TailwindCss", "Vercel"],
+    webLink: "https://travel-in-a-blink.vercel.app",
+    codeLink: "https://github.com/vrushabhgawas14/",
+    projectDate: "Oct 2024",
+  },
+  {
+    img: projectImages.portfolio,
+    name: "Portfolio Website",
+    bio: "Portfolio Website to showcase skills, projects and to provide personal information.",
+    stack: ["React", "Ts", "TailwindCss", "Js", "Docker", "Web3Forms"],
+    webLink: "https://vrushabhgawas14.github.io/",
+    codeLink: "https://github.com/vrushabhgawas14/vrushabhgawas14.github.io",
+    projectDate: "Apr 2024",
+  },
+  {
     img: projectImages.musicPlayer,
     name: "Music Player",
     bio: "Mini Music Player Project made with JavaScript, helps you navigate previous and next track and selecting song language.",
     stack: ["JavaScript", "Css", "HTML"],
     webLink: "https://vrushabhgawas14.github.io/mini-music-player/",
     codeLink: "https://github.com/vrushabhgawas14/mini-music-player",
+    projectDate: "Feb 2024",
   },
   {
     img: projectImages.toDo,
@@ -16,6 +35,7 @@ export const Details = [
     stack: ["JavaScript", "Css", "HTML", "Dockerfile"],
     webLink: "https://vrushabhgawas14.github.io/ToDoList/",
     codeLink: "https://github.com/vrushabhgawas14/ToDoList",
+    projectDate: "Oct 2023",
   },
   {
     img: projectImages.ticTacToe,
@@ -24,6 +44,7 @@ export const Details = [
     stack: ["JavaScript", "React", "HTML", "TailwindCss"],
     webLink: "https://vrushabhgawas14.github.io/tic-tac-toe-react-app/",
     codeLink: "https://github.com/vrushabhgawas14/tic-tac-toe-react-app",
+    projectDate: "Apr 2024",
   },
   {
     img: projectImages.qrGenerator,
@@ -32,22 +53,7 @@ export const Details = [
     stack: ["JavaScript", "Css", "API", "HTML"],
     webLink: "https://vrushabhgawas14.github.io/QR-Code-Generator/",
     codeLink: "https://github.com/vrushabhgawas14/QR-Code-Generator",
-  },
-  {
-    img: projectImages.ageCalculator,
-    name: "Age Calculator",
-    bio: "Simple Age Calculator made with JavaScript",
-    stack: ["JavaScript", "TailwindCss", "HTML"],
-    webLink: "https://vrushabhgawas14.github.io/Age-Calculator/",
-    codeLink: "https://github.com/vrushabhgawas14/Age-Calculator",
-  },
-  {
-    img: projectImages.portfolio,
-    name: "Portfolio Website",
-    bio: "Portfolio Website to showcase skills, projects and to provide personal information.",
-    stack: ["React", "Ts", "TailwindCss", "Js", "Docker", "Web3Forms"],
-    webLink: "https://vrushabhgawas14.github.io/",
-    codeLink: "https://github.com/vrushabhgawas14/",
+    projectDate: "Jan 2024",
   },
 ];
 

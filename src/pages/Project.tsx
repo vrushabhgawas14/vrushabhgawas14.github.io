@@ -71,6 +71,7 @@ export const Project = () => {
                 stack={item.stack}
                 webLink={item.webLink}
                 codeLink={item.codeLink}
+                projectDate={item.projectDate}
               />
             ))}
           </div>

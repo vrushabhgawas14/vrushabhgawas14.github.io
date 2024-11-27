@@ -7,10 +7,11 @@ interface myProps {
   stack: String[];
   webLink?: string;
   codeLink?: string;
+  projectDate: string;
 }
 
 export const Template: React.FC<myProps> = (props) => {
-  const { img, name, bio, stack, webLink, codeLink } = props;
+  const { img, name, bio, stack, webLink, codeLink, projectDate } = props;
   return (
     <>
       <div className="w-80 min-w-80 sm:min-w-72 border border-gray-600 p-2 m-2 rounded-lg">
@@ -24,6 +25,9 @@ export const Template: React.FC<myProps> = (props) => {
           </a>
         </div>
         <p className="text-center p-2 font-semibold">{name}</p>
+        <p className="text-end text-sm px-2 opacity-85 dark:opacity-65">
+          ({projectDate})
+        </p>
         <p className="text-justify p-2 h-32">{bio}</p>
         <div className="p-2">
           <p className="font-semibold">Tech Stack: </p>
