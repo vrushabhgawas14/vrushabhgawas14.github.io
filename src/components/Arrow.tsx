@@ -3,12 +3,12 @@ export const Arrow = () => {
     // eslint-disable-next-line
     <a
       href="#"
-      className="fixed bottom-8 right-8 bg-gray-500 dark:bg-slate-600 p-2 rounded-3xl hover:bg-slate-600 dark:hover:bg-slate-800"
+      className="fixed bottom-8 right-8 bg-slate-800 dark:bg-zinc-300 p-2 rounded-3xl hover:bg-slate-950 dark:hover:bg-zinc-100 ease-in duration-150"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 384 512"
-        className="fill-slate-900 dark:fill-zinc-200"
+        className="fill-zinc-100 dark:fill-slate-900"
         width={30}
         height={30}
       >

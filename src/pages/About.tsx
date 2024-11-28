@@ -73,6 +73,7 @@ export const About = () => {
               // company={item.company}
               // duration={item.duration}
               // location={item.location}
+              // description={item.description}
               animationClass="a_ex_text"
               {...item}
             />

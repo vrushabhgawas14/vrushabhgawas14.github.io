@@ -5,7 +5,7 @@ export const Details = [
     img: projectImages.travelAgency,
     name: "Travel in a Blink",
     bio: "A modern travel agency project offering seamless and fast travel experiences. (Note : This Project is still in development.)",
-    stack: ["Next.js", "React", "TS", "JS", "TailwindCss", "Vercel"],
+    stack: ["Next.js", "React", "Ts", "Js", "TailwindCss", "Vercel"],
     webLink: "https://travel-in-a-blink.vercel.app",
     codeLink: "https://github.com/vrushabhgawas14/",
     projectDate: "Oct 2024",
