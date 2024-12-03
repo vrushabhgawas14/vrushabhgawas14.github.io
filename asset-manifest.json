@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c80353e1.css",
-    "main.js": "/static/js/main.e5d6e987.js",
+    "main.js": "/static/js/main.d48068a2.js",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
     "static/media/BrowserStack.jpeg": "/static/media/BrowserStack.81a2bc20dda90cbd127b.jpeg",
     "static/media/middleware.jpg": "/static/media/middleware.419d05311085c3bca11b.jpg",
     "static/media/CNCFThaneSep.jpeg": "/static/media/CNCFThaneSep.5969d621560fc19232d9.jpeg",
     "static/media/CNCFThaneAug.jpeg": "/static/media/CNCFThaneAug.b5d8df11ba8a751d8c3d.jpeg",
+    "static/media/MongoDB.jpeg": "/static/media/MongoDB.eeedbc68e77beb3c6fcc.jpeg",
     "static/media/to-do.png": "/static/media/to-do.1111e0692f16e2fd9505.png",
     "static/media/BreachForceSep.jpeg": "/static/media/BreachForceSep.f9ca77f61c6029354eda.jpeg",
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
@@ -42,10 +43,10 @@
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
     "main.c80353e1.css.map": "/static/css/main.c80353e1.css.map",
-    "main.e5d6e987.js.map": "/static/js/main.e5d6e987.js.map"
+    "main.d48068a2.js.map": "/static/js/main.d48068a2.js.map"
   },
   "entrypoints": [
     "static/css/main.c80353e1.css",
-    "static/js/main.e5d6e987.js"
+    "static/js/main.d48068a2.js"
   ]
 }
