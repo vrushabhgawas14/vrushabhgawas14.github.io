@@ -51,6 +51,7 @@ import BrowserStack from "./eventImages/BrowserStack.jpeg";
 import CNCFThaneAug from "./eventImages/CNCFThaneAug.jpeg";
 import CNCFThaneSep from "./eventImages/CNCFThaneSep.jpeg";
 import middleware from "./eventImages/middleware.jpg";
+import MongoDB from "./eventImages/MongoDB.jpeg";
 
 export const profile = myImage;
 
@@ -111,4 +112,5 @@ export const eventImages = {
   CNCFThaneAug: CNCFThaneAug,
   CNCFThaneSep: CNCFThaneSep,
   middleware: middleware,
+  MongoDB: MongoDB,
 };

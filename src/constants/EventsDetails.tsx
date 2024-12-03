@@ -19,6 +19,10 @@ export const EventsDetails = [
   },
   {
     img: eventImages.middleware,
-    name: "Middleware 2024",
+    name: "Middleware Nov 2024",
+  },
+  {
+    img: eventImages.MongoDB,
+    name: "MongoDB Mumbai 2024",
   },
 ];
