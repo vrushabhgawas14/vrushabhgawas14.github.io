@@ -33,8 +33,8 @@ export const Template: React.FC<myProps> = (props) => {
           <p className="font-semibold">Tech Stack: </p>
           <div className="p-2 h-24">
             <p className="flex flex-wrap gap-2">
-              {stack.map((item) => (
-                <LanguageBox text={item} />
+              {stack.map((item, index) => (
+                <LanguageBox key={index} text={item} />
               ))}
             </p>
           </div>

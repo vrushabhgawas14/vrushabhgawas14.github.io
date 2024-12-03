@@ -22,7 +22,8 @@ export const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "9f6e8ca7-169a-4b82-9b65-bacd2192801d");
+    const accessKey = process.env.REACT_APP_ACCESS_KEY;
+    formData.append("access_key", accessKey || "");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -35,7 +36,6 @@ export const Contact = () => {
       setResult("Form Submitted Successfully.");
       event.target.reset();
     } else {
-      console.log("Error", data);
       setResult(data.message);
     }
   };
@@ -92,8 +92,9 @@ export const Contact = () => {
               gawasvrushabh@gmail.com
             </a>
             <div className="flex pt-2 sm:pl-3">
-              {socials.map((item) => (
+              {socials.map((item, index) => (
                 <a
+                  key={index}
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"

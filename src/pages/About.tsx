@@ -34,7 +34,7 @@ export const About = () => {
       <main id="about" className="py-10">
         <Heading text="About me" animationClass="a_text" />
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
-          <p className="text-start text-lg">
+          <div className="text-start text-lg">
             <p className="a_text">
               Vrushabh Gawas is a final-year BSc IT student, passionate Web
               Developer and Cloud-Native Enthusiast.
@@ -58,7 +58,7 @@ export const About = () => {
               Software Engineer or Web Developer, where he can continue to
               contribute his expertise and passion for technology.
             </p>
-          </p>
+          </div>
         </section>
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <Heading
@@ -66,8 +66,9 @@ export const About = () => {
             isSubHeading={true}
             animationClass="a_ex_text"
           />
-          {workDetails.map((item) => (
+          {workDetails.map((item, index) => (
             <DataBox
+              key={index}
               // position={item.position}
               // type={item.type}
               // company={item.company}
@@ -85,8 +86,9 @@ export const About = () => {
             isSubHeading={true}
             animationClass="a_ed_text"
           />
-          {educationDetails.map((item) => (
+          {educationDetails.map((item, index) => (
             <DataBox
+              key={index}
               // position={item.position}
               // company={item.company}
               // duration={item.duration}

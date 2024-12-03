@@ -53,8 +53,9 @@ export default function Header() {
     <div className="flex justify-end sm:justify-between items-center px-1 py-5 pr-12 relative sm:pr-6 bg-secondary-light dark:bg-secondary-dark dark:text-zinc-300">
       <div className="flex items-center">
         <div className={`${isOpen ? "textPopup" : "sm:hidden"} mr-6 z-10`}>
-          {NavElement.map((item) => (
+          {NavElement.map((item, index) => (
             <a
+              key={index}
               href={item.url}
               className="px-4 font-bold text-2xl sm:text-xl hover:text-hover-black dark:hover:text-hover-light"
             >
@@ -64,8 +65,9 @@ export default function Header() {
         </div>
 
         <div className="flex sm:pl-3">
-          {socials.map((item) => (
+          {socials.map((item, index) => (
             <a
+              key={index}
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"

@@ -28,6 +28,11 @@ jobs:
       # - name: Generate Sitemap
       #   run: node generate-sitemap.js
 
+      - name: Inject Environment Variables
+        run: echo "REACT_APP_ACCESS_KEY=$REACT_APP_ACCESS_KEY" > .env
+        env:
+          REACT_APP_ACCESS_KEY: ${{ secrets.REACT_APP_ACCESS_KEY }}
+
       - name: Deploy with gh-pages
         run: |
           git config --global user.name $user_name
