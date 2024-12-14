@@ -2,6 +2,15 @@ import { projectImages } from "../assets";
 
 export const Details = [
   {
+    img: projectImages.athawdabazaar,
+    name: "Athawda Bazaar",
+    bio: "Its my college event where few students are allowed to setup stall and sell their products. I developed a offical website for this college event.",
+    stack: ["Next.js", "MongoDB Atlas", "Ts", "React", "TailwindCss", "Vercel"],
+    webLink: "https://athawda-bazaar.vercel.app",
+    codeLink: "https://github.com/vrushabhgawas14/sathayebazaar",
+    projectDate: "Dec 2024",
+  },
+  {
     img: projectImages.travelAgency,
     name: "Travel in a Blink",
     bio: "A modern travel agency project offering seamless and fast travel experiences. (Note : This Project is still in development.)",

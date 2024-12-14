@@ -8,6 +8,7 @@ import toDo from "./projects/to-do.png";
 import qrGenerator from "./projects/qr-generator.png";
 import portfolio from "./projects/portfolio-white.png";
 import travelAgency from "./projects/travelAgency.png";
+import athawdabazaar from "./projects/athawdabazaar.png";
 
 // Language Images
 import javascript from "./langImages/javascript.svg";
@@ -62,6 +63,7 @@ export const projectImages = {
   qrGenerator: qrGenerator,
   travelAgency: travelAgency,
   portfolio: portfolio,
+  athawdabazaar: athawdabazaar,
 };
 
 export const languageImages = {
