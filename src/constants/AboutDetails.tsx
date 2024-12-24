@@ -21,7 +21,7 @@ export const workDetails = [
 
 export const educationDetails = [
   {
-    position: "BSC-IT",
+    position: "BSc IT",
     company: "Sathaye College",
     duration: "2022 - 2025",
     grade: "8.7 CGPA",
