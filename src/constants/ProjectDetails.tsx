@@ -4,7 +4,7 @@ export const Details = [
   {
     img: projectImages.athawdabazaar,
     name: "Athawda Bazaar",
-    bio: "Its my college event where few students are allowed to setup stall and sell their products. I developed a offical website for this college event.",
+    bio: "Its my college event where interested students are allowed to setup stall and sell their products. I developed a offical website for this college event.",
     stack: ["Next.js", "MongoDB Atlas", "Ts", "React", "TailwindCss", "Vercel"],
     webLink: "https://athawda-bazaar.vercel.app",
     codeLink: "https://github.com/vrushabhgawas14/sathayebazaar",
