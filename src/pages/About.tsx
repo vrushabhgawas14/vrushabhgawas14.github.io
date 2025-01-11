@@ -36,7 +36,7 @@ export const About = () => {
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <div className="text-start text-lg">
             <p className="a_text">
-              Vrushabh Gawas is a final-year BSc IT student, passionate Web
+              Vrushabh Gawas is a final-year BSc IT student, Full Stack Web
               Developer and Cloud-Native Enthusiast.
               {/* <span>
                 His career objective is to work for a detail oriented
@@ -51,7 +51,7 @@ export const About = () => {
               containerization tools such as Docker. His involvement in
               open-source contributions and personal projects has further honed
               his abilities. Now, Vrushabh is exploring cloud-native
-              technologies and practicing DevOps to gain more knowledge.
+              technologies to gain more knowledge.
             </p>
             <p className="py-2 a_text">
               Currently, Vrushabh is seeking opportunities in roles such as
