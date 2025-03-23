@@ -46,17 +46,18 @@ export const About = () => {
             </p>
             <p className="py-4 a_text">
               He has strong foundation in MERN stack, along with experience in
-              frameworks like Next.js and databases like MySQL. Additionally, he
-              is proficient in version control tools such as Git and
-              containerization tools such as Docker. His involvement in
+              frameworks like Next.js and databases like MySQL and Firebase.
+              Additionally, he is proficient in version control tools such as
+              Git and containerization tools such as Docker. His involvement in
               open-source contributions and personal projects has further honed
-              his abilities. Now, Vrushabh is exploring cloud-native
-              technologies to gain more knowledge.
+              his abilities. He recently won 2 intercollegiate hackathons. Now,
+              Vrushabh is exploring cloud-native technologies to gain more
+              knowledge.
             </p>
             <p className="py-2 a_text">
-              Currently, Vrushabh is seeking opportunities in roles such as
-              Software Engineer or Web Developer, where he can continue to
-              contribute his expertise and passion for technology.
+              Currently, Vrushabh is seeking opportunities in Full Stack Web
+              Developer role, where he can continue to contribute his expertise
+              and passion for technology.
             </p>
           </div>
         </section>
