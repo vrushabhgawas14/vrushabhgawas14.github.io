@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c80353e1.css",
-    "main.js": "/static/js/main.e06cf00b.js",
+    "main.js": "/static/js/main.e7f50738.js",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
     "static/media/BrowserStack.jpeg": "/static/media/BrowserStack.81a2bc20dda90cbd127b.jpeg",
     "static/media/middleware.jpg": "/static/media/middleware.419d05311085c3bca11b.jpg",
@@ -13,6 +13,7 @@
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
     "static/media/athawdabazaar.png": "/static/media/athawdabazaar.e2fd4a9f0f9a1bcdfae6.png",
     "static/media/music-player.png": "/static/media/music-player.9a6ddee0f2fcb581f7ef.png",
+    "static/media/bookify.png": "/static/media/bookify.cf5a866826ade3de2f4a.png",
     "static/media/profile.png": "/static/media/profile.cad428c06d887d977817.png",
     "static/media/qr-generator.png": "/static/media/qr-generator.15edcbeb84e12529b656.png",
     "static/media/ticTacToe.jpg": "/static/media/ticTacToe.719165368d70c83e2123.jpg",
@@ -44,10 +45,10 @@
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
     "main.c80353e1.css.map": "/static/css/main.c80353e1.css.map",
-    "main.e06cf00b.js.map": "/static/js/main.e06cf00b.js.map"
+    "main.e7f50738.js.map": "/static/js/main.e7f50738.js.map"
   },
   "entrypoints": [
     "static/css/main.c80353e1.css",
-    "static/js/main.e06cf00b.js"
+    "static/js/main.e7f50738.js"
   ]
 }
