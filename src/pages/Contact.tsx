@@ -77,7 +77,10 @@ export const Contact = () => {
                 required
               ></textarea>
 
-              <button type="submit" className="btn">
+              <button
+                type="submit"
+                className="text-xl text-slate-800 dark:text-zinc-200 rounded-2xl px-4 py-2 border-2 border-zinc-900 dark:border-gray-200 hover:opacity-80"
+              >
                 Submit
               </button>
             </form>

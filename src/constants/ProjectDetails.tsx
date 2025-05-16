@@ -16,7 +16,7 @@ export const Details = [
     ],
     webLink: "https://bookify-summarization.vercel.app/",
     codeLink: "https://github.com/vrushabhgawas14/bookify",
-    projectDate: "Mar 2025",
+    projectDate: "APR 2025",
   },
   {
     img: projectImages.athawdabazaar,
