@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c80353e1.css",
-    "main.js": "/static/js/main.7e368a05.js",
+    "main.css": "/static/css/main.9b1a58e5.css",
+    "main.js": "/static/js/main.3d3705e4.js",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
     "static/media/BrowserStack.jpeg": "/static/media/BrowserStack.81a2bc20dda90cbd127b.jpeg",
     "static/media/middleware.jpg": "/static/media/middleware.419d05311085c3bca11b.jpg",
@@ -44,11 +44,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.c80353e1.css.map": "/static/css/main.c80353e1.css.map",
-    "main.7e368a05.js.map": "/static/js/main.7e368a05.js.map"
+    "main.9b1a58e5.css.map": "/static/css/main.9b1a58e5.css.map",
+    "main.3d3705e4.js.map": "/static/js/main.3d3705e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c80353e1.css",
-    "static/js/main.7e368a05.js"
+    "static/css/main.9b1a58e5.css",
+    "static/js/main.3d3705e4.js"
   ]
 }
