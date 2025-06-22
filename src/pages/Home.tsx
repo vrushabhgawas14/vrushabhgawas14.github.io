@@ -17,7 +17,7 @@ export const Home = () => {
             I'm Vrushabh Gawas
           </div>
           <div className="lg:text-start text-center sm:px-4 md:mt-2 sm:mt-2">
-            Full Stack Web Developer.
+            Software Developer.
           </div>
           {/* Resume/ */}
           {/* <div className="my-8 hover:opacity-85">

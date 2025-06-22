@@ -94,7 +94,7 @@ export const Events = () => {
                 <img
                   src={selectedImage}
                   alt="Large View"
-                  className="max-w-[80vw] max-h-[80vh] border-2 border-gray-200 rounded-xl"
+                  className="max-w-[80vw] max-h-[80vh] sm:max-h-[40vh] border-2 border-gray-200 rounded-xl"
                 />
               </div>
             </div>

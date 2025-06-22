@@ -36,8 +36,7 @@ export const About = () => {
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <div className="text-start text-lg">
             <p className="a_text">
-              Vrushabh Gawas is a 2025 graudated BSc IT student and Full Stack
-              Web Developer.
+              I am Vrushabh Gawas, a Software Developer and tech enthusiast.
               {/* <span>
                 His career objective is to work for a detail oriented
                 organization that believes in building impactful solutions and
@@ -45,19 +44,18 @@ export const About = () => {
               </span> */}
             </p>
             <p className="py-4 a_text">
-              He has strong foundation in MERN stack, along with experience in
+              I have strong foundation in MERN stack, along with experience in
               frameworks like Next.js and databases like MySQL and Firebase.
-              Additionally, he is proficient in version control tools such as
-              Git and containerization tools such as Docker. His involvement in
-              open-source contributions and personal projects has further honed
-              his abilities. He recently won 2 intercollegiate hackathons. Now,
-              he is exploring cloud-native technologies to gain more knowledge.
+              Additionally, I'm proficient in version control tools such as Git
+              and containerization tools such as Docker. My involvement in tech
+              communities and personal projects has further honed my abilities
+              and also I have won 2 intercollegiate hackathons.
             </p>
-            <p className="py-2 a_text">
+            {/* <p className="py-2 a_text">
               Currently, Vrushabh is seeking opportunities in Software Developer
               role, where he can continue to contribute his expertise and
               passion for technology.
-            </p>
+            </p> */}
           </div>
         </section>
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">

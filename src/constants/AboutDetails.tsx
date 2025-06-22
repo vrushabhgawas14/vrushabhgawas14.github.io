@@ -1,13 +1,21 @@
 export const workDetails = [
-  {
-    position: "TeleCaller",
-    type: "full-time",
-    company: "Sigma Outsourcing",
-    duration: "Apr 2024 - June 2024",
-    location: "Mumbai",
-    description:
-      "As a Credit Card Recovery Specialist, managed a high volume of calls, exceeding 300 daily, to assist customers with outstanding credit card bill payments, negotiated repayment plans and resolved disputes. Leveraged strong communication skills to facilitate timely debt recovery and exceptional customer service.",
-  },
+  // {
+  //   position: "Software Developer",
+  //   type: "full-time",
+  //   company: "LMCC",
+  //   duration: "June 2025 - present",
+  //   location: "Mumbai",
+  //   description: "",
+  // },
+  // {
+  //   position: "TeleCaller",
+  //   type: "full-time",
+  //   company: "Sigma Outsourcing",
+  //   duration: "Apr 2024 - June 2024",
+  //   location: "Mumbai",
+  //   description:
+  //     "As a Credit Card Recovery Specialist, managed a high volume of calls, exceeding 300 daily, to assist customers with outstanding credit card bill payments, negotiated repayment plans and resolved disputes. Leveraged strong communication skills to facilitate timely debt recovery and exceptional customer service.",
+  // },
   {
     position: "Sales Executive",
     type: "part-time",

@@ -54,6 +54,9 @@ import CNCFThaneAug from "./eventImages/CNCFThaneAug.jpeg";
 import CNCFThaneSep from "./eventImages/CNCFThaneSep.jpeg";
 import middleware from "./eventImages/middleware.jpg";
 import MongoDB from "./eventImages/MongoDB.jpeg";
+import CNCFThaneJune from "./eventImages/CNCF_Thane_June-2025.jpg";
+import TatvaHackathon from "./eventImages/TatvaHackathon.jpeg";
+import TechVistaHackathon from "./eventImages/TechVistaHackathon.jpeg";
 
 export const profile = myImage;
 
@@ -117,4 +120,7 @@ export const eventImages = {
   CNCFThaneSep: CNCFThaneSep,
   middleware: middleware,
   MongoDB: MongoDB,
+  CNCFThaneJune: CNCFThaneJune,
+  TatvaHackathon: TatvaHackathon,
+  TechVistaHackathon: TechVistaHackathon,
 };
