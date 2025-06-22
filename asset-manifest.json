@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b1a58e5.css",
-    "main.js": "/static/js/main.3d3705e4.js",
+    "main.css": "/static/css/main.22203232.css",
+    "main.js": "/static/js/main.b0727406.js",
+    "static/media/TatvaHackathon.jpeg": "/static/media/TatvaHackathon.8832f2de01dd176f2140.jpeg",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
+    "static/media/TechVistaHackathon.jpeg": "/static/media/TechVistaHackathon.3ecced1450a2b95d7bb4.jpeg",
     "static/media/BrowserStack.jpeg": "/static/media/BrowserStack.81a2bc20dda90cbd127b.jpeg",
     "static/media/middleware.jpg": "/static/media/middleware.419d05311085c3bca11b.jpg",
     "static/media/CNCFThaneSep.jpeg": "/static/media/CNCFThaneSep.5969d621560fc19232d9.jpeg",
@@ -13,6 +15,7 @@
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
     "static/media/athawdabazaar.png": "/static/media/athawdabazaar.e2fd4a9f0f9a1bcdfae6.png",
     "static/media/music-player.png": "/static/media/music-player.9a6ddee0f2fcb581f7ef.png",
+    "static/media/CNCF_Thane_June-2025.jpg": "/static/media/CNCF_Thane_June-2025.7751174381905ea46381.jpg",
     "static/media/bookify.png": "/static/media/bookify.cf5a866826ade3de2f4a.png",
     "static/media/profile.png": "/static/media/profile.cad428c06d887d977817.png",
     "static/media/qr-generator.png": "/static/media/qr-generator.15edcbeb84e12529b656.png",
@@ -44,11 +47,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.9b1a58e5.css.map": "/static/css/main.9b1a58e5.css.map",
-    "main.3d3705e4.js.map": "/static/js/main.3d3705e4.js.map"
+    "main.22203232.css.map": "/static/css/main.22203232.css.map",
+    "main.b0727406.js.map": "/static/js/main.b0727406.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b1a58e5.css",
-    "static/js/main.3d3705e4.js"
+    "static/css/main.22203232.css",
+    "static/js/main.b0727406.js"
   ]
 }
