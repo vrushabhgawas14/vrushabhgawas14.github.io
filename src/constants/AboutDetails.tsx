@@ -1,12 +1,12 @@
 export const workDetails = [
-   {
-     position: "Software Developer",
-     type: "full-time",
-     company: "LMCC",
-     duration: "June 2025 - present",
-     location: "Mumbai",
-     description: "",
-   },
+  {
+    position: "Software Developer",
+    type: "full-time",
+    company: "LMCC",
+    duration: "June 2025 - present",
+    location: "Mumbai",
+    description: "",
+  },
   // {
   //   position: "TeleCaller",
   //   type: "full-time",
@@ -17,14 +17,14 @@ export const workDetails = [
   //     "As a Credit Card Recovery Specialist, managed a high volume of calls, exceeding 300 daily, to assist customers with outstanding credit card bill payments, negotiated repayment plans and resolved disputes. Leveraged strong communication skills to facilitate timely debt recovery and exceptional customer service.",
   // },
   // {
-  //  position: "Sales Executive",
-  //  type: "part-time",
-  //  company: "Vijay Sales",
-  //  duration: "June 2023 - Aug 2023",
-  //  location: "Mumbai",
-  //  description:
-   //   "Specialized in selling a range of electronic products like TVs, soundbars, speakers, watches and accessories. Consistently achieved around 90% of monthly sales targets, maintaining strong product knowledge and building lasting customer relationships to drive sales growth.",
- // },
+  //   position: "Sales Executive",
+  //   type: "part-time",
+  //   company: "Vijay Sales",
+  //   duration: "June 2023 - Aug 2023",
+  //   location: "Mumbai",
+  //   description:
+  //     "Specialized in selling a range of electronic products like TVs, soundbars, speakers, watches and accessories. Consistently achieved around 90% of monthly sales targets, maintaining strong product knowledge and building lasting customer relationships to drive sales growth.",
+  // },
 ];
 
 export const educationDetails = [
