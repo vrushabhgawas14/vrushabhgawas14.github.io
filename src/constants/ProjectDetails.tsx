@@ -1,23 +1,23 @@
 import { projectImages } from "../assets";
 
 export const Details = [
-  // {
-  //   img: projectImages.bookify,
-  //   name: "Bookify",
-  //   bio: "Bookify is a modern web application that converts PDFs, DOCX, and typed text into AI generated summaries and human like audio.",
-  //   stack: [
-  //     "React",
-  //     "Python",
-  //     "Fast API",
-  //     "Groq API",
-  //     "Ts",
-  //     "Firebase",
-  //     "TailwindCss",
-  //   ],
-  //   webLink: "https://bookify-summarization.vercel.app/",
-  //   codeLink: "https://github.com/vrushabhgawas14/bookify",
-  //   projectDate: "APR 2025",
-  // },
+  {
+    img: projectImages.bookify,
+    name: "Bookify",
+    bio: "Bookify is a modern web application that converts PDFs, DOCX, and typed text into AI generated summaries and human like audio.",
+    stack: [
+      "React",
+      "Python",
+      "Fast API",
+      "Groq API",
+      "Ts",
+      "Firebase",
+      "TailwindCss",
+    ],
+    webLink: "https://bookify-summarization.vercel.app/",
+    codeLink: "https://github.com/vrushabhgawas14/bookify",
+    projectDate: "APR 2025",
+  },
   {
     img: projectImages.athawdabazaar,
     name: "Athawda Bazaar",
