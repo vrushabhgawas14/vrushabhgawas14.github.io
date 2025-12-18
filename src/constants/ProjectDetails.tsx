@@ -2,6 +2,22 @@ import { projectImages } from "../assets";
 
 export const Details = [
   {
+    img: projectImages.toDo,
+    name: "To Do List",
+    bio: "Tick your Unticked ToDo's. Simple To Do List to maintain your day to day To do's.",
+    stack: [
+      "Nextjs",
+      "TypeScript",
+      "Vercel",
+      "MongoDB",
+      "Tailwindcss",
+      "Docker",
+    ],
+    webLink: "https://untick-task.vercel.app/",
+    codeLink: "https://github.com/vrushabhgawas14/To-Do-List-NextApp",
+    projectDate: "Aug 2025",
+  },
+  {
     img: projectImages.bookify,
     name: "Bookify",
     bio: "Bookify is a modern web application that converts PDFs, DOCX, and typed text into AI generated summaries and human like audio.",
@@ -53,15 +69,6 @@ export const Details = [
     webLink: "https://vrushabhgawas14.github.io/mini-music-player/",
     codeLink: "https://github.com/vrushabhgawas14/mini-music-player",
     projectDate: "Feb 2024",
-  },
-  {
-    img: projectImages.toDo,
-    name: "To Do List",
-    bio: "Simple To Do List to maintain your day to day To do's.",
-    stack: ["JavaScript", "Css", "HTML", "Dockerfile"],
-    webLink: "https://vrushabhgawas14.github.io/ToDoList/",
-    codeLink: "https://github.com/vrushabhgawas14/ToDoList",
-    projectDate: "Oct 2023",
   },
   {
     img: projectImages.ticTacToe,

@@ -49,7 +49,7 @@ export const About = () => {
               Additionally, I'm proficient in version control tools such as Git
               and containerization tools such as Docker. My involvement in tech
               communities and personal projects has further honed my abilities
-              and also I have won 2 intercollegiate hackathons.
+              and I have also won 2 hackathons out of 5.
             </p>
             {/* <p className="py-2 a_text">
               Currently, Vrushabh is seeking opportunities in Software Developer
