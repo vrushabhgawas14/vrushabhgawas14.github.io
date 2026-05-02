@@ -1,5 +1,6 @@
 //Personal Images
-import myImage from "./profile.png";
+// import myImage from "./profile.png";
+import myImage from "./ProfileImage.jpeg";
 
 // Project Images
 import musicPlayer from "./projects/music-player.png";

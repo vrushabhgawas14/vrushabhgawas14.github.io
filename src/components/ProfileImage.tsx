@@ -6,7 +6,7 @@ export default function Image() {
       draggable="false"
       src={profile}
       alt="Vrushabh Gawas Profile"
-      className="rounded-full grayscale transition-transform duration-300 hover:grayscale-0 hover:scale-110 cursor-pointer hover:z-10"
+      className="rounded-full grayscale-0 transition-transform duration-300 hover:grayscale-0 hover:scale-110 cursor-pointer hover:z-10"
     />
   );
 }
