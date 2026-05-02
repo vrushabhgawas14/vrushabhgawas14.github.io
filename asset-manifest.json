@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.22203232.css",
-    "main.js": "/static/js/main.2818d015.js",
+    "main.css": "/static/css/main.3676b736.css",
+    "main.js": "/static/js/main.8f2c31fc.js",
     "static/media/TatvaHackathon.jpeg": "/static/media/TatvaHackathon.8832f2de01dd176f2140.jpeg",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
     "static/media/TechVistaHackathon.jpeg": "/static/media/TechVistaHackathon.3ecced1450a2b95d7bb4.jpeg",
@@ -17,7 +17,7 @@
     "static/media/music-player.png": "/static/media/music-player.9a6ddee0f2fcb581f7ef.png",
     "static/media/CNCF_Thane_June-2025.jpg": "/static/media/CNCF_Thane_June-2025.7751174381905ea46381.jpg",
     "static/media/bookify.png": "/static/media/bookify.cf5a866826ade3de2f4a.png",
-    "static/media/profile.png": "/static/media/profile.cad428c06d887d977817.png",
+    "static/media/ProfileImage.jpeg": "/static/media/ProfileImage.64182b6e42d6919dc3c7.jpeg",
     "static/media/qr-generator.png": "/static/media/qr-generator.15edcbeb84e12529b656.png",
     "static/media/ticTacToe.jpg": "/static/media/ticTacToe.719165368d70c83e2123.jpg",
     "static/media/mongodb.svg": "/static/media/mongodb.001832c268f5e03e49c691dd9ab24caa.svg",
@@ -47,11 +47,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.22203232.css.map": "/static/css/main.22203232.css.map",
-    "main.2818d015.js.map": "/static/js/main.2818d015.js.map"
+    "main.3676b736.css.map": "/static/css/main.3676b736.css.map",
+    "main.8f2c31fc.js.map": "/static/js/main.8f2c31fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.22203232.css",
-    "static/js/main.2818d015.js"
+    "static/css/main.3676b736.css",
+    "static/js/main.8f2c31fc.js"
   ]
 }
