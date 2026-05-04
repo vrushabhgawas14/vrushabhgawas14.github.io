@@ -6,8 +6,8 @@ export default function Header() {
   const [isOpen, setIsOpenMenu] = useState(false);
   const localTheme = localStorage.getItem("savedTheme");
 
-  const darkSVG = mode.darkSvg;
-  const lightSVG = mode.lightSvg;
+  // const darkSVG = mode.darkSvg;
+  // const lightSVG = mode.lightSvg;
   const bar = mode.bar;
 
   // Checks for System theme and previous localStorage theme if any.
@@ -35,9 +35,9 @@ export default function Header() {
   }, [theme]);
 
   // Changes theme state, and helps change icon
-  const handleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  // const handleTheme = () => {
+  //   setTheme(theme === "dark" ? "light" : "dark");
+  // };
 
   const dropdown = () => {
     setIsOpenMenu(!isOpen);
