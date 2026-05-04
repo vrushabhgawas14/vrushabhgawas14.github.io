@@ -50,9 +50,15 @@ export default function Header() {
   });
 
   return (
-    <div className="flex justify-end sm:justify-between items-center px-1 py-5 pr-12 relative sm:pr-6 bg-secondary-light dark:bg-secondary-dark dark:text-zinc-300">
+    <div
+      className="flex justify-end sm:justify-between items-center px-1 py-5 pr-12 sm:pr-6 bg-secondary-light dark:bg-secondary-dark dark:text-zinc-300 fixed w-full backdrop-blur-lg z-50 bg-opacity-40 dark:bg-opacity-70"
+      style={{
+        background:
+          "linear-gradient(90deg, rgba(61, 53, 53, 0) 0%, rgba(0,0,0,0.4) 100%)",
+      }}
+    >
       <div className="flex items-center">
-        <div className={`${isOpen ? "textPopup" : "sm:hidden"} mr-6 z-10`}>
+        <div className={`${isOpen ? "textPopup" : "sm:hidden"} mr-6 z-40`}>
           {NavElement.map((item, index) => (
             <a
               key={index}
@@ -78,13 +84,13 @@ export default function Header() {
           ))}
         </div>
 
-        <div className="text-2xl px-3">|</div>
+        {/* <div className="text-2xl px-3">|</div> */}
 
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <button onClick={handleTheme}>
             {theme === "dark" ? lightSVG : darkSVG}
           </button>
-        </div>
+        </div> */}
       </div>
       <button className="hidden sm:block w-6 h-6" onClick={dropdown}>
         {bar}

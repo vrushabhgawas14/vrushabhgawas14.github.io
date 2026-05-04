@@ -30,7 +30,7 @@ export const DataBox: React.FC<myProps> = (props) => {
 
   return (
     <div
-      className={`flex flex-col gap-y-1 rounded-lg border border-zinc-500 p-2 mb-4 ${animationClass}`}
+      className={`flex flex-col gap-y-1 rounded-lg bg-white/5 backdrop-blur-md border border-white/30 p-2 mb-4 w-full ${animationClass}`}
     >
       <div className="flex justify-between">
         <span className="text-xl font-semibold">{position}</span>

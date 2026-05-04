@@ -52,7 +52,14 @@ export const Project = () => {
 
   return (
     <>
-      <main id="projects" className="py-10 pb-20">
+      <main
+        id="projects"
+        className="py-10 pb-20"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, #463740 0%, #000000 100%)",
+        }}
+      >
         <Heading text="Projects" animationClass="p_text" />
         <div className="flex items-center justify-center">
           <div onClick={goLeft}>{back}</div>

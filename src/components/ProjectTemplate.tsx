@@ -14,7 +14,7 @@ export const Template: React.FC<myProps> = (props) => {
   const { img, name, bio, stack, webLink, codeLink, projectDate } = props;
   return (
     <>
-      <div className="w-80 min-w-80 sm:min-w-72 border border-gray-600 p-2 m-2 rounded-lg">
+      <div className="w-80 min-w-80 sm:min-w-72 bg-white/5 backdrop-blur-md border border-white/30 p-2 m-2 rounded-lg">
         <div>
           <a href={webLink} target="_blank" rel="noopener noreferrer">
             <img

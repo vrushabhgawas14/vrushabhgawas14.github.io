@@ -31,7 +31,14 @@ export const About = () => {
   }, []);
   return (
     <>
-      <main id="about" className="py-10">
+      <main
+        id="about"
+        className="py-10"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, #463740 0%, #000000 100%)",
+        }}
+      >
         <Heading text="About me" animationClass="a_text" />
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <div className="text-start text-lg">
@@ -92,18 +99,20 @@ export const About = () => {
             isSubHeading={true}
             animationClass="a_ed_text"
           />
-          {educationDetails.map((item, index) => (
-            <DataBox
-              key={index}
-              // position={item.position}
-              // company={item.company}
-              // duration={item.duration}
-              // grade={item.grade}
-              // location={item.location}
-              animationClass="a_ed_text"
-              {...item}
-            />
-          ))}
+          <div className="md:flex lg:flex gap-x-4 justify-between">
+            {educationDetails.map((item, index) => (
+              <DataBox
+                key={index}
+                // position={item.position}
+                // company={item.company}
+                // duration={item.duration}
+                // grade={item.grade}
+                // location={item.location}
+                animationClass="a_ed_text"
+                {...item}
+              />
+            ))}
+          </div>
         </section>
       </main>
       <Line />

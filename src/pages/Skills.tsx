@@ -30,7 +30,14 @@ export const Skills = () => {
 
   return (
     <>
-      <main id="skills" className="py-10">
+      <main
+        id="skills"
+        className="py-10"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, #463740 0%, #000000 100%)",
+        }}
+      >
         <Heading text="Tech Stack" animationClass="s_text" />
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           {TechStackData.map((item, index1) => (

@@ -63,7 +63,14 @@ export const Events = () => {
 
   return (
     <>
-      <main id="events" className="pt-10 pb-20">
+      <main
+        id="events"
+        className="pt-10 pb-20"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, #463740 0%, #000000 100%)",
+        }}
+      >
         <Heading text="Events" animationClass="e_text" />
         <section className="flex items-center justify-center">
           <div onClick={goLeft}>{back}</div>

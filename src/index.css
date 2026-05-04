@@ -1,140 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Fira+Code:wght@900&family=Martel+Sans:wght@300;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Fira+Code:wght@900&family=Martel+Sans:wght@300;500;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
-    width: 0.8rem;
+  width: 0.8rem;
 }
 
 ::-webkit-scrollbar-track {
-    @apply bg-secondary-light;
+  @apply bg-secondary-light;
 }
 
 .dark::-webkit-scrollbar-track {
-    @apply bg-secondary-dark;
+  @apply bg-secondary-dark;
 }
 
 ::-webkit-scrollbar-thumb {
-    @apply bg-slate-600 rounded-xl;
+  @apply bg-slate-600 rounded-xl;
 }
 
-.dark::-webkit-scrollbar-thumb{
-    @apply bg-zinc-400;
+.dark::-webkit-scrollbar-thumb {
+  @apply bg-zinc-400;
 }
 
-.textPopup{
-    @apply flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2;
-    @apply items-center space-y-2 mt-8 p-4 w-full bg-secondary-light-dropdown dark:bg-secondary-dark-dropdown;
-    transition: ease-in-out 0.3s;
-    
+.textPopup {
+  @apply flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2;
+  @apply items-center space-y-2 mt-8 p-4 w-full bg-secondary-light-dropdown dark:bg-secondary-dark bg-opacity-35 dark:bg-opacity-60;
+  transition: ease-in-out 0.3s;
 }
 
-.textPopup :nth-child(1){
-    animation: slideLeft 0.3s;
+.textPopup :nth-child(1) {
+  animation: slideLeft 0.3s;
 }
-.textPopup :nth-child(2){
-    animation: slideLeft 0.5s;
+.textPopup :nth-child(2) {
+  animation: slideLeft 0.5s;
 }
-.textPopup :nth-child(3){
-    animation: slideLeft 0.7s;
+.textPopup :nth-child(3) {
+  animation: slideLeft 0.7s;
 }
-.textPopup :nth-child(4){
-    animation: slideLeft 0.6s;
+.textPopup :nth-child(4) {
+  animation: slideLeft 0.6s;
 }
-.textPopup :nth-child(5){
-    animation: slideLeft 0.9s;
+.textPopup :nth-child(5) {
+  animation: slideLeft 0.9s;
 }
-.textPopup :nth-child(6){
-    animation: slideLeft 1s;
+.textPopup :nth-child(6) {
+  animation: slideLeft 1s;
 }
 
 @keyframes slideLeft {
-    from  {
-        transform: translateX(60%);
-        opacity: 0.2;
-    }
-    to {
-        transform: translateX(0%);
-    }
+  from {
+    transform: translateX(60%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
-.sliding-text :nth-child(1){
-    font-family: 'Poppins',sans-serif;
-    animation: slideRight 1.7s;
+.sliding-text :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  animation: slideRight 1.7s;
 }
 
-.sliding-text :nth-child(2){
-    font-family: 'Poppins',sans-serif;
-    animation: slideRight 2s;
+.sliding-text :nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  animation: slideRight 2s;
 }
 
-.sliding-text :nth-child(3){
-    font-family: 'Poppins',sans-serif;
-    animation: slideRight 2.2s;
+.sliding-text :nth-child(3) {
+  font-family: "Poppins", sans-serif;
+  animation: slideRight 2.2s;
 }
 
 @keyframes slideRight {
-    from  {
-        transform: translateX(-60%);
-        opacity: 0.2;
-    }
-    to {
-        transform: translateX(0%);
-        opacity: 1;
-    }
+  from {
+    transform: translateX(-60%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }
 
-.sliding-text :nth-child(2){
-    background: linear-gradient(to right,#681c39,#bc1938,#bf154f,#df3c53, #ad0a0a); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text;
-    /* @apply bg-clip-text text-transparent bg-gradient-to-r from-[#681c39] via-[#bc1938] via-[#bf154f] via-[#df3c53] to-[#ad0a0a]; */
+.sliding-text :nth-child(2) {
+  background: linear-gradient(
+    to right,
+    #681c39,
+    #bc1938,
+    #bf154f,
+    #df3c53,
+    #ad0a0a
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* @apply bg-clip-text text-transparent bg-gradient-to-r from-[#681c39] via-[#bc1938] via-[#bf154f] via-[#df3c53] to-[#ad0a0a]; */
 }
 
-.dark .sliding-text :nth-child(2){
-    background: linear-gradient(to right,#b022ec,#6d4ef8,#4375fd,#3c72df, #385af3); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text;
-    /* @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b022ec] via-[#6d4ef8] via-[#4375fd] via-[#3c72df] to-[#385af3] */
+.dark .sliding-text :nth-child(2) {
+  background: linear-gradient(
+    to right,
+    #dcbdb9,
+    rgb(229, 191, 191),
+    #e0bec1,
+    #ddbac6,
+    #e7c6d2
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b022ec] via-[#6d4ef8] via-[#4375fd] via-[#3c72df] to-[#385af3] */
 }
 
 #slider::-webkit-scrollbar {
-    @apply h-3 lg:hidden;
+  @apply h-3 lg:hidden;
 }
-  
-#slider::-webkit-scrollbar-track, #eventSlider::-webkit-scrollbar-track{
-    @apply hidden;
+
+#slider::-webkit-scrollbar-track,
+#eventSlider::-webkit-scrollbar-track {
+  @apply hidden;
 }
 
 #eventSlider::-webkit-scrollbar {
-    @apply h-4;
+  @apply h-4;
 }
 
-#eventSlider::-webkit-scrollbar-thumb{
-	@apply cursor-pointer;
+#eventSlider::-webkit-scrollbar-thumb {
+  @apply cursor-pointer;
 }
 
-.btn{
-    background: linear-gradient(to right,#7001a0, #092cc9); 
-    @apply text-xl text-zinc-200 rounded-2xl px-4 py-2 border-2 border-zinc-900 dark:border-gray-200 hover:opacity-80
+.btn {
+  background: linear-gradient(to right, #7001a0, #092cc9);
+  @apply text-xl text-zinc-200 rounded-2xl px-4 py-2 border-2 border-zinc-900 dark:border-gray-200 hover:opacity-80;
 }
 
-.a_text, .a_ex_text, .a_ed_text{
-    @apply opacity-0 translate-y-[100px];
+.a_text,
+.a_ex_text,
+.a_ed_text {
+  @apply opacity-0 translate-y-[100px];
 }
 
-.p_text, .s_text, .c_text, .e_text{
-    @apply opacity-0 translate-y-[30px];
+.p_text,
+.s_text,
+.c_text,
+.e_text {
+  @apply opacity-0 translate-y-[30px];
 }

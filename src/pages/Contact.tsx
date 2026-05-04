@@ -42,7 +42,14 @@ export const Contact = () => {
 
   return (
     <>
-      <main id="contact" className="pt-10">
+      <main
+        id="contact"
+        className="pt-10"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, #463740 0%, #000000 100%)",
+        }}
+      >
         <Heading text="Get In Touch" animationClass="c_text" />
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10 flex flex-col">
           <div className="text-center mx-32 md:mx-28 sm:mx-4 pb-10 text-lg sm:text-base opacity-75">
