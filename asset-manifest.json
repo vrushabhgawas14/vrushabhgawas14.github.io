@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28e749f9.css",
-    "main.js": "/static/js/main.02e34381.js",
+    "main.css": "/static/css/main.d8349a61.css",
+    "main.js": "/static/js/main.d9b1b683.js",
     "static/media/TatvaHackathon.jpeg": "/static/media/TatvaHackathon.8832f2de01dd176f2140.jpeg",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
     "static/media/TechVistaHackathon.jpeg": "/static/media/TechVistaHackathon.3ecced1450a2b95d7bb4.jpeg",
@@ -47,11 +47,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.28e749f9.css.map": "/static/css/main.28e749f9.css.map",
-    "main.02e34381.js.map": "/static/js/main.02e34381.js.map"
+    "main.d8349a61.css.map": "/static/css/main.d8349a61.css.map",
+    "main.d9b1b683.js.map": "/static/js/main.d9b1b683.js.map"
   },
   "entrypoints": [
-    "static/css/main.28e749f9.css",
-    "static/js/main.02e34381.js"
+    "static/css/main.d8349a61.css",
+    "static/js/main.d9b1b683.js"
   ]
 }
