@@ -42,11 +42,11 @@ export const About = () => {
         <Heading text="About me" animationClass="a_text" />
         <section className="mx-64 md:mx-28 sm:mx-6 pt-10">
           <div className="text-start text-lg">
-            <p className="a_text">
-              I am Vrushabh Gawas, a Full Stack Developer based in Mumbai with a
-              simple mission: to help businesses and startups reach more
-              customers and simplify their operations by building fast, modern
-              web and mobile applications.
+            <p className="pb-4 a_text">
+              I am Vrushabh Gawas, a Full Stack Developer based in Mumbai. I
+              help businesses and startups reach more customers and simplify
+              their operations by building fast, modern websites and mobile
+              applications.
             </p>
             <p className="py-4 a_text">
               Currently, I work as a Software Developer at a firm where I build
