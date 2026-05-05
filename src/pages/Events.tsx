@@ -72,7 +72,7 @@ export const Events = () => {
         }}
       >
         <Heading text="Events" animationClass="e_text" />
-        <section className="flex items-center justify-center">
+        <section className="flex items-center justify-center my-8">
           <div onClick={goLeft}>{back}</div>
           <div
             id="eventSlider"
