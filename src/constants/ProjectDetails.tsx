@@ -3,7 +3,7 @@ import { projectImages } from "../assets";
 export const Details = [
   {
     img: projectImages.toDo,
-    name: "To Do List",
+    name: "To Do List App",
     bio: "Tick your Unticked ToDo's. Simple To Do List to maintain your day to day To do's.",
     stack: [
       "Nextjs",
