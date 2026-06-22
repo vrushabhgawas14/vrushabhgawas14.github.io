@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.eacefd09.css",
-    "main.js": "/static/js/main.85a80451.js",
+    "main.css": "/static/css/main.8b4d88d1.css",
+    "main.js": "/static/js/main.b5b375da.js",
     "static/media/TatvaHackathon.jpeg": "/static/media/TatvaHackathon.8832f2de01dd176f2140.jpeg",
+    "static/media/littleSpace.jpeg": "/static/media/littleSpace.50b958548057632b61d5.jpeg",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
+    "static/media/V_secretum.jpeg": "/static/media/V_secretum.4c103b7a688bf89ad29e.jpeg",
     "static/media/TechVistaHackathon.jpeg": "/static/media/TechVistaHackathon.3ecced1450a2b95d7bb4.jpeg",
     "static/media/BrowserStack.jpeg": "/static/media/BrowserStack.81a2bc20dda90cbd127b.jpeg",
     "static/media/to-do.png": "/static/media/to-do.77d06ffd913059ccb958.png",
@@ -47,11 +49,11 @@
     "static/media/css.svg": "/static/media/css.b26fb1bcafdafde55c4dfe6813b3e693.svg",
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
-    "main.eacefd09.css.map": "/static/css/main.eacefd09.css.map",
-    "main.85a80451.js.map": "/static/js/main.85a80451.js.map"
+    "main.8b4d88d1.css.map": "/static/css/main.8b4d88d1.css.map",
+    "main.b5b375da.js.map": "/static/js/main.b5b375da.js.map"
   },
   "entrypoints": [
-    "static/css/main.eacefd09.css",
-    "static/js/main.85a80451.js"
+    "static/css/main.8b4d88d1.css",
+    "static/js/main.b5b375da.js"
   ]
 }
