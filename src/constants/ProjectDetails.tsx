@@ -2,6 +2,40 @@ import { projectImages } from "../assets";
 
 export const Details = [
   {
+    img: projectImages.V_secretum,
+    name: "V Secretum",
+    bio: "A secure and open sourced password manager app with encrypted storage, Google Signin, smart filters, and secure credential management.",
+    stack: [
+      "React Native",
+      "TypeScript",
+      "JavaScript",
+      "Expo",
+      "Nodejs",
+      "Google Sigin",
+      "AES Encryption",
+    ],
+    webLink: "https://github.com/vrushabhgawas14/V-secretum/releases",
+    codeLink: "https://github.com/vrushabhgawas14/V-secretum",
+    projectDate: "May 2026",
+    projectType: "app",
+  },
+  {
+    img: projectImages.littleSpace,
+    name: "Little Space",
+    bio: "A web app to chat with my gf when she lost her phone, so she can msg me from any device. I'll get notif of her msgs on telegram bot, indicators like typing, online, last seen, msg seen blue tick and many more.",
+    stack: [
+      "Nextjs",
+      "TypeScript",
+      "React",
+      "MongoDB",
+      "Tailwindcss",
+    ],
+    webLink: "",
+    codeLink: "",
+    projectDate: "Feb 2026",
+    projectType: "website",
+  },
+  {
     img: projectImages.toDo,
     name: "To Do List App",
     bio: "Tick your Unticked ToDo's. Simple To Do List to maintain your day to day To do's.",
@@ -16,6 +50,7 @@ export const Details = [
     webLink: "https://untick-task.vercel.app/",
     codeLink: "https://github.com/vrushabhgawas14/To-Do-List-NextApp",
     projectDate: "Aug 2025",
+    projectType: "website",
   },
   {
     img: projectImages.bookify,
@@ -33,6 +68,7 @@ export const Details = [
     webLink: "https://bookify-summarization.vercel.app/",
     codeLink: "https://github.com/vrushabhgawas14/bookify",
     projectDate: "APR 2025",
+    projectType: "website",
   },
   {
     img: projectImages.athawdabazaar,
@@ -42,6 +78,7 @@ export const Details = [
     webLink: "https://athawda-bazaar.vercel.app",
     codeLink: "https://github.com/vrushabhgawas14/sathayebazaar",
     projectDate: "Dec 2024",
+    projectType: "website",
   },
   // {
   //   img: projectImages.travelAgency,
@@ -51,6 +88,7 @@ export const Details = [
   //   webLink: "https://travel-in-a-blink.vercel.app",
   //   codeLink: "https://github.com/vrushabhgawas14/",
   //   projectDate: "Oct 2024",
+  //   projectType: "website",
   // },
   {
     img: projectImages.portfolio,
@@ -60,6 +98,7 @@ export const Details = [
     webLink: "https://vrushabhgawas.in/",
     codeLink: "https://github.com/vrushabhgawas14/vrushabhgawas14.github.io",
     projectDate: "Apr 2024",
+    projectType: "website",
   },
   {
     img: projectImages.musicPlayer,
@@ -69,6 +108,7 @@ export const Details = [
     webLink: "https://vrushabhgawas.in/mini-music-player/",
     codeLink: "https://github.com/vrushabhgawas14/mini-music-player",
     projectDate: "Feb 2024",
+    projectType: "website",
   },
   {
     img: projectImages.ticTacToe,
@@ -78,6 +118,7 @@ export const Details = [
     webLink: "https://vrushabhgawas.in/tic-tac-toe-react-app/",
     codeLink: "https://github.com/vrushabhgawas14/tic-tac-toe-react-app",
     projectDate: "Apr 2024",
+    projectType: "website",
   },
   {
     img: projectImages.qrGenerator,
@@ -87,6 +128,7 @@ export const Details = [
     webLink: "https://vrushabhgawas.in/QR-Code-Generator/",
     codeLink: "https://github.com/vrushabhgawas14/QR-Code-Generator",
     projectDate: "Jan 2024",
+    projectType: "website",
   },
 ];
 

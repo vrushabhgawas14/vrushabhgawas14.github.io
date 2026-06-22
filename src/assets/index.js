@@ -11,6 +11,8 @@ import portfolio from "./projects/portfolio-white.png";
 import travelAgency from "./projects/travelAgency.png";
 import athawdabazaar from "./projects/athawdabazaar.png";
 import bookify from "./projects/bookify.png";
+import littleSpace from "./projects/littleSpace.jpeg";
+import V_secretum from "./projects/V_secretum.jpeg";
 
 // Language Images
 import javascript from "./langImages/javascript.svg";
@@ -70,6 +72,8 @@ export const projectImages = {
   portfolio: portfolio,
   athawdabazaar: athawdabazaar,
   bookify: bookify,
+  littleSpace: littleSpace,
+  V_secretum: V_secretum,
 };
 
 export const languageImages = {
