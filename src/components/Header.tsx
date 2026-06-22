@@ -63,7 +63,7 @@ export default function Header() {
             <a
               key={index}
               href={item.url}
-              className="px-4 font-bold text-2xl sm:text-xl hover:text-hover-black dark:hover:text-hover-light"
+              className="px-4 font-bold text-sm sm:text-xl hover:text-hover-black dark:hover:text-hover-light"
             >
               {item.title}
             </a>

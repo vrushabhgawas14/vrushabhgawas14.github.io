@@ -95,6 +95,16 @@ textarea:-webkit-autofill:focus {
   animation: slideRight 2.2s;
 }
 
+.sliding-text :nth-child(4) {
+  font-family: "Poppins", sans-serif;
+  animation: slideRight 2.5s;
+}
+
+.sliding-text :nth-child(5) {
+  font-family: "Poppins", sans-serif;
+  animation: slideRight 2.6s;
+}
+
 @keyframes slideRight {
   from {
     transform: translateX(-60%);
