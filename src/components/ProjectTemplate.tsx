@@ -48,7 +48,7 @@ export const Template: React.FC<myProps> = (props) => {
               rel="noopener noreferrer"
               className="bg-stone-800/80 px-4 py-1 border border-zinc-200/50 rounded-lg backdrop-blur-md hover:bg-red-100/60 hover:text-black hover:border-red-100/40 transition ease-in-out duration-100 w-[40%] text-center"
             >
-              {projectType == "website" ? "Live" : "Download"}
+              {projectType === "website" ? "Live" : "Download"}
             </a>
             <a
               href={codeLink}
