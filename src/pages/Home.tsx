@@ -61,6 +61,7 @@ export const Home = () => {
             <a
               href={resume}
               target="_blank"
+              rel="noreferrer"
               className="ease-in duration-150 text-xl bg-stone-700 text-zinc-200/90 rounded-2xl px-6 py-1 border-2 border-white/40 hover:bg-stone-900"
             >
               Resume
