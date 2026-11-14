@@ -2,6 +2,14 @@ import { eventImages } from "../assets";
 
 export const EventsDetails = [
   {
+    img: eventImages.CNCFThaneAug2026,
+    name: "CNCF Thane Meetup, Aug 2026",
+  },
+  {
+    img: eventImages.Devfest,
+    name: "Devfest Mumbai, Dec 2025",
+  },
+  {
     img: eventImages.TechVistaHackathon,
     name: "2nd Place at MetaSquid Hackathon, VSIT 2025",
   },

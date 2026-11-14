@@ -29,7 +29,14 @@ export const workDetails = [
 
 export const educationDetails = [
   {
-    position: "BSc IT",
+    position: "MCA (Distance Learning)",
+    company: "Mumbai University",
+    duration: "2026 - 2028",
+    grade: "Pursuing",
+    location: "Mumbai",
+  },
+  {
+    position: "B.Sc. IT",
     company: "Sathaye College",
     duration: "2022 - 2025",
     grade: "8.7 CGPA",
@@ -40,13 +47,6 @@ export const educationDetails = [
     company: "Tolani College",
     duration: "2020 - 2022",
     grade: "82%",
-    location: "Mumbai",
-  },
-  {
-    position: "SSC",
-    company: "N.D Bhuta High School",
-    duration: "2010 - 2020",
-    grade: "89%",
     location: "Mumbai",
   },
 ];

@@ -60,8 +60,14 @@ import MongoDB from "./eventImages/MongoDB.jpeg";
 import CNCFThaneJune from "./eventImages/CNCF_Thane_June-2025.jpg";
 import TatvaHackathon from "./eventImages/TatvaHackathon.jpeg";
 import TechVistaHackathon from "./eventImages/TechVistaHackathon.jpeg";
+import Devfest from "./eventImages/Devfest.jpeg";
+import CNCFThaneAug2026 from "./eventImages/CNCF_Aug_2026.jpg";
+
+import resumePDF from "../assets/VrushabhResume.pdf";
 
 export const profile = myImage;
+
+export const resume = resumePDF;
 
 export const projectImages = {
   musicPlayer: musicPlayer,
@@ -128,4 +134,6 @@ export const eventImages = {
   CNCFThaneJune: CNCFThaneJune,
   TatvaHackathon: TatvaHackathon,
   TechVistaHackathon: TechVistaHackathon,
+  Devfest: Devfest,
+  CNCFThaneAug2026: CNCFThaneAug2026,
 };
