@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b4d88d1.css",
-    "main.js": "/static/js/main.b5b375da.js",
+    "main.js": "/static/js/main.5b3cd52e.js",
     "static/media/TatvaHackathon.jpeg": "/static/media/TatvaHackathon.8832f2de01dd176f2140.jpeg",
     "static/media/littleSpace.jpeg": "/static/media/littleSpace.50b958548057632b61d5.jpeg",
     "static/media/travelAgency.png": "/static/media/travelAgency.aa00cddd7db97a2cc154.png",
@@ -12,11 +12,14 @@
     "static/media/middleware.jpg": "/static/media/middleware.419d05311085c3bca11b.jpg",
     "static/media/CNCFThaneSep.jpeg": "/static/media/CNCFThaneSep.5969d621560fc19232d9.jpeg",
     "static/media/CNCFThaneAug.jpeg": "/static/media/CNCFThaneAug.b5d8df11ba8a751d8c3d.jpeg",
+    "static/media/CNCF_Aug_2026.jpg": "/static/media/CNCF_Aug_2026.eb21d0d31ff37c3787e2.jpg",
     "static/media/MongoDB.jpeg": "/static/media/MongoDB.eeedbc68e77beb3c6fcc.jpeg",
+    "static/media/VrushabhResume.pdf": "/static/media/VrushabhResume.5afc003e867f15b6d7cc.pdf",
     "static/media/BreachForceSep.jpeg": "/static/media/BreachForceSep.f9ca77f61c6029354eda.jpeg",
     "static/media/portfolio-white.png": "/static/media/portfolio-white.4098fcaabc33073151ad.png",
     "static/media/athawdabazaar.png": "/static/media/athawdabazaar.e2fd4a9f0f9a1bcdfae6.png",
     "static/media/music-player.png": "/static/media/music-player.9a6ddee0f2fcb581f7ef.png",
+    "static/media/Devfest.jpeg": "/static/media/Devfest.c4e3f17575ddcd09e613.jpeg",
     "static/media/CNCF_Thane_June-2025.jpg": "/static/media/CNCF_Thane_June-2025.7751174381905ea46381.jpg",
     "static/media/bookify.png": "/static/media/bookify.cf5a866826ade3de2f4a.png",
     "static/media/ProfileImage.jpeg": "/static/media/ProfileImage.64182b6e42d6919dc3c7.jpeg",
@@ -50,10 +53,10 @@
     "static/media/npm.svg": "/static/media/npm.9c45979bc6a8b444de410e2e4586c1f6.svg",
     "static/media/markdown.svg": "/static/media/markdown.90d2a8d00e325b26a15fb4f62f938f41.svg",
     "main.8b4d88d1.css.map": "/static/css/main.8b4d88d1.css.map",
-    "main.b5b375da.js.map": "/static/js/main.b5b375da.js.map"
+    "main.5b3cd52e.js.map": "/static/js/main.5b3cd52e.js.map"
   },
   "entrypoints": [
     "static/css/main.8b4d88d1.css",
-    "static/js/main.b5b375da.js"
+    "static/js/main.5b3cd52e.js"
   ]
 }
